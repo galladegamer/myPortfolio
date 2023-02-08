@@ -1,0 +1,415 @@
+/* CSS Document */
+/*
+	Author: Timothy Frick
+	Date: 1/25/2022
+	File Name: styles.css
+*/
+
+/*
+SELECTOR {
+}
+font-family: 'Francois One', sans-serif;
+font-family: 'Roboto Slab', serif;
+*/
+
+* {
+box-sizing: border-box;
+}
+
+.logo {
+	max-width: 20%;
+}
+
+
+body, header, nav, main, footer, h1, div, img, ul, figure, figcaption, article, aside, audio, video{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+body {
+	background-color: black;
+}
+img, video {
+	display: block;
+	width: 100%;
+}
+header {
+	top: 0;
+	background-color: black;
+	height: 190px;
+}
+header img {
+	margin: 0 auto;
+}
+.mobile-nav a {
+	color: white;
+	font-family: 'Francois One', sans-serif;
+	text-align: center;
+	font-size: 2em;
+	text-decoration: none;
+	padding: 3%;
+	display: block;
+}
+mobile.nav, a.menu-icon {
+	display: block;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+nav li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 0.1em .75em;
+	text-decoration: none;
+	font-family: 'Francois One', sans-serif;
+}
+nav li:last-child {
+	border-right: none;
+}
+.mobile, .mobile-nav {
+	display: block;
+}
+.tablet-desktop, #menu-links {
+	display: none;
+}
+video {
+	margin: 0 auto 4%;
+}
+main {
+	background-color: white;
+	padding: 2%;
+	font-size: 1.15em;
+	font-family: 'Roboto Slab', serif;
+}
+.mobile h3 {
+	text-shadow: 5px 5px 8px #cccccc;
+}
+article {
+	padding: 2%;
+}
+article h3{
+	text-align: center;
+}
+article img {
+	margin: 0 auto;
+}
+article ul {
+	margin-left: 10%;
+}
+article:nth-of-type(2) {
+	background-color: #cccccc
+}
+.tel-link {
+	background-color: #404040;
+	padding: 2%;
+	margin: 0 auto;
+	width: 80%;
+	text-align: center;
+	border-radius: 5px;
+}
+.tel-link a {
+	color: white;
+	text-decoration: none;
+	font-size: 1.5em;
+	display: block;
+}
+.hours {
+	margin-left: 10%;
+}
+.action {
+	font-size: 1.35em;
+	color: #6699ff;
+	font-weight: bold;
+	text-shadow: 5px 5px 8px #cccccc;
+}
+.frame {
+	position: relative;
+	max-width: 425px;
+	margin: 2% auto;
+}
+.pic-text {
+	position: absolute;
+	bottom: 0;
+	background: rgba(0, 0, 0, 0.5);
+	color: white;
+	width: 95%;
+	padding: 20px;
+}
+#weights, #cardio, #training {
+	margin: 0 2%;
+}
+.round {
+	border-radius: 8px;
+}
+.external-link {
+	color: #6699ff;
+	font-weight: bold;
+	text-decoration: none;
+}
+#contact {
+	text-align: center;
+}
+#contact .contact-email-link {
+	color: #6699ff;
+	text-decoration: none;
+}
+footer p {
+	font-size: 0.75em;
+	text-align: center;
+	color: white;
+	padding: 0 1em;
+}
+footer p a {
+	color: white;
+	text-decoration: none;
+}
+table {
+	border: 1px solid black;
+	border-collapse: collapse;
+	margin: 0 auto;
+	width: 100%;
+}
+th, td {
+	border: 1px solid black;
+	padding: 2%
+}
+th {
+	background-color: black;
+	color: white;
+	font-size: 1.15em;
+}
+tr:nth-child(odd) {
+	background-color: #f0f0f0
+}
+form {
+	width: 70%;
+	margin: 0 auto;
+}
+@media screen and (min-width: 630px), print {
+	.tablet-desktop {
+		display: block;
+	}
+	.mobile {
+		display: none;
+	}
+	header {
+		padding-bottom: 2%;
+	}
+	nav {
+		padding: 1%;
+		margin-bottom: 1%;
+	}
+	nav ul {
+		list-style-type: none;
+		text-align: center;
+	}
+	nav li {
+		font-size: 1.5em;
+		font-family: 'Francois One', sans-serif;
+		display: inline-block;
+		border-right: 1px solid white;
+	}
+	nav li:last-child {
+		border-right: none;
+	}
+	nav li a {
+		padding: .1em .75em;
+	}
+	main ul {
+		margin: 0 0 4% 10%;
+	}
+	.grid {
+		display: grid;
+		grid-template-columns: auto auto auto;
+		grid-gap: 20px;
+	}
+	.pic-text {
+		font-size: 1em;
+		padding: 10px;
+	}
+	aside {
+		text-align: center;
+		font-size: 1.25em;
+		font-style: italic;
+		font-weight: bold;
+		padding: 2%;
+		background-color: #cccccc;
+		box-shadow: 5px 5px 8px #000000;
+		text-shadow: 5px 5px 5px #d3d3d3;
+		border-radius: 0 15px;
+	}
+	.grid-item4 {
+		grid-column: 1/ span 3;
+	}
+	#exercises {
+		clear: left;
+		border-top: 1px solid black;
+		border-bottom: 1px solid black;
+		background: linear-gradient(to top right, #842593, #b00b69);
+		padding: 1% 2%;
+	}
+	#exercises dt {
+		font-weight: bold;
+	}
+	#exercises dt {
+		padding: 0.5% 1% 2% 0;
+	}
+	.tel-link {
+		font-size: 1.25em;
+	}
+	.map {
+		width: 600px;
+		height: 450px;
+	}
+	#form {
+		margin-top: 24;
+		background-color: #f2f2f2;
+		padding: 24;
+	}
+	#form h2 {
+		text-align: center;
+	}
+	fieldset, input, select, textarea {
+		margin-bottom: 24;
+	}
+	fieldset legend {
+		font-weight: bold;
+		font-size: 1.25em;
+	}
+	label {
+		display: block;
+		padding-top: 3%
+	}
+	form #submit {
+		margin: 0 auto;
+		border: none;
+		display: block;
+		padding: 2%;
+		background-color: #b3b3b3;
+		font-size: 1em;
+		border-radius: 10px;
+	}
+	footer .copyright {
+	font-size: 0.75em;
+	text-align: center;
+	color: white;
+	padding: 2% 4%;
+	float: left;
+	width: 75%;
+}
+footer p {
+	font-size: 0.75em;
+	text-align: center;
+	color: white;
+	padding: 0 1em;
+}
+footer p a {
+	color: white;
+	text-decoration: none;
+}
+.social {
+	float: right;
+	max-width: 20%;
+	padding: 2%;
+}
+.social img {
+	display: inline-block;
+	padding: 5%;
+}
+@-webkit-keyframes text-animation {
+	0% {font-size: 1em; }
+	50% {font-size: 2em; }
+	100% {font-size: 1.35em; }
+}
+	@keyframes text-animation {
+		0% {font-size: 1em; }
+		50% {font-size: 2em; }
+		100% {font-size: 1.35em; }
+	}
+	figcaption {
+		-webkit-animation-name: text-animation {
+			animation-name: text-animation;
+			-webkit-animation-delay: 3s;
+			animation-delay: 3s;
+			-webkit-animation-duration: 5s;
+			animation-duration: 5s;
+		}
+	}
+}
+@media screen and (min-width: 1015px), print {
+	header {
+		float: right;
+		width: 70%;
+		margin: 4em 1em 0 0;
+	}
+	nav ul {
+		text-align: right;
+		}
+	nav li {
+		border: none;
+	}
+	nav li a {
+		padding: .5em 1em;
+	}
+	nav li a:hover {
+		color: black;
+		background-color: white;
+		transform: scale(1.3);
+	}
+	main {
+		clear: left;
+	}
+	main h1 {
+		font-size: 1.8em;
+	}
+	article h3 {
+		font-size: 1.75em;
+	}
+	.pic-text {
+		font-size: 1.5em;
+		padding: 20px;
+	}
+	.frame {
+		opacity: 0.9;
+	}
+	.frame:hover {
+		opacity: 1;
+		box-shadow: 8px 8px 10px #808080;
+		transform: translateY(10px);
+	}
+	#weights, #cardio, #training {
+		width: 29%;
+		float: left;
+		margin: 0 2%;
+	}
+	#exercises {
+		clear: left;
+	}
+	form {
+		width: auto;
+	}
+	.form-grid {
+		display: grid;
+		grid-template-columns: auto auto auto;
+		grid-gap: 20px;
+	}
+	.btn {
+		grid-column: 1 / span 3;
+	}
+}
+@media screen and (min-width: 1921px) {
+	#container {
+		max-width: 1920px;
+		margin: 0 auto;
+	}
+	table {
+		width: 80%;
+	}
+}
+@media print {
+	body {
+		background-color: white;
+		color: black;
+	}
+}
