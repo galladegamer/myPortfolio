@@ -1,6 +1,6 @@
 /* CSS Document */
 
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Fredoka+One&family=Itim&family=Playfair+Display&family=Righteous&family=Solway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Comfortaa&family=Fredoka+One&family=Itim&family=Playfair+Display&family=Righteous&family=Solway&display=swap');
 
 /* COLORS:
 
@@ -89,6 +89,56 @@ a:visited {
 
 footer {
 	
+}
+
+div {
+	min-height: 300px;
+}
+
+.game {
+	font-size: 3em;
+	font-family: 'Abril Fatface', serif;
+	color: #550000;
+}
+
+.scratch {
+	color: #999900;
+	transition: all 0.3s;
+}
+
+.scratch:hover {
+	color: #ffff00;
+}
+
+.scratch:active {
+	color: #ff0000;
+	transition: all 0s;
+}
+
+.gamejolt {
+	color: #009900;
+	transition: all 0.3s;
+}
+
+.gamejolt:hover {
+	color: #00ff00;
+}
+
+.gamejolt:active {
+	color: #ff0000;
+	transition: all 0s;
+}
+
+.titling {
+	color: #003300;
+	font-size: 5em;
+	text-align: center;
+	animation: blonk 10s infinite alternate ease-in-out;
+}
+
+@keyframes blonk {
+	0% {color: #005500;}
+	100% {color: #000000;}
 }
 
 .gallant {
@@ -251,7 +301,7 @@ footer {
 }
 
 @keyframes fitness {
-	0% {transform: translate(0,1rem);}
+	0% {transform: translate(0,0);}
 	0% {transform: translate(0,-1rem);}
 }
 
