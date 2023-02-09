@@ -371,55 +371,55 @@ footer {
 	49.999999999% {color: #53391f;}
 	50% {color: #e4f2ea;}
 	66.666666665% {color: #e4f2ea;}
-	66.666666666% {color: #e4f2ea;}
-	83.333333332% {color: #e4f2ea;}
-	83.333333333% {color: #cba987;}
-	100% {color: #cba987;}
-}
-
-@keyframes b5 {
-	0% {color: #734f2f;}
-	16.666666665% {color: #734f2f;}
-	16.666666666% {color: #e4f2ea;}
-	33.333333332% {color: #e4f2ea;}
-	33.333333333% {color: #53391f;}
-	49.999999999% {color: #53391f;}
-	50% {color: #e4f2ea;}
-	66.666666665% {color: #e4f2ea;}
-	66.666666666% {color: #e4f2ea;}
-	83.333333332% {color: #e4f2ea;}
-	83.333333333% {color: #cba987;}
-	100% {color: #cba987;}
-}
-
-@keyframes b6 {
-	0% {color: #e4f2ea;}
-	16.666666665% {color: #e4f2ea;}
-	16.666666666% {color: #53391f;}
-	33.333333332% {color: #53391f;}
-	33.333333333% {color: #e4f2ea;}
-	49.999999999% {color: #e4f2ea;}
-	50% {color: #e4f2ea;}
-	66.666666665% {color: #e4f2ea;}
 	66.666666666% {color: #cba987;}
 	83.333333332% {color: #cba987;}
 	83.333333333% {color: #e4f2ea;}
 	100% {color: #e4f2ea;}
 }
 
-@keyframes b7 {
+@keyframes b5 {
+	0% {color: #e4f2ea;}
+	16.666666665% {color: #e4f2ea;}
+	16.666666666% {color: #53391f;}
+	33.333333332% {color: #53391f;}
+	33.333333333% {color: #e4f2ea;}
+	49.999999999% {color: #e4f2ea;}
+	50% {color: #cba987;}
+	66.666666665% {color: #cba987;}
+	66.666666666% {color: #e4f2ea;}
+	83.333333332% {color: #e4f2ea;}
+	83.333333333% {color: #734f2f;}
+	100% {color: #734f2f;}
+}
+
+@keyframes b6 {
 	0% {color: #53391f;}
 	16.666666665% {color: #53391f;}
 	16.666666666% {color: #e4f2ea;}
 	33.333333332% {color: #e4f2ea;}
+	33.333333333% {color: #cba987;}
+	49.999999999% {color: #cba987;}
+	50% {color: #e4f2ea;}
+	66.666666665% {color: #e4f2ea;}
+	66.666666666% {color: #734f2f;}
+	83.333333332% {color: #734f2f;}
+	83.333333333% {color: #e4f2ea;}
+	100% {color: #e4f2ea;}
+}
+
+@keyframes b7 {
+	0% {color: #e4f2ea;}
+	16.666666665% {color: #e4f2ea;}
+	16.666666666% {color: #cba987;}
+	33.333333332% {color: #cba987;}
 	33.333333333% {color: #e4f2ea;}
 	49.999999999% {color: #e4f2ea;}
-	50% {color: #cba987;}
-	66.666666665% {color: #53391f;}
+	50% {color: #734f2f;}
+	66.666666665% {color: #734f2f;}
 	66.666666666% {color: #e4f2ea;}
 	83.333333332% {color: #e4f2ea;}
-	83.333333333% {color: #734f2f;}
-	100% {color: }
+	83.333333333% {color: #53391f;}
+	100% {color: #53391f;}
 }
 
 /*
