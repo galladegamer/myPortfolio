@@ -137,16 +137,16 @@ footer {
 }
 
 @keyframes christmas1 {
-	0% {color: #990000; text-shadow: 0 0 5px #990000bb, 0 0 10px #ff000099, 0 0 15px #99000077, 0 0 20px #99000055;}
-	49% {color: #990000; text-shadow: 0 0 5px #990000bb, 0 0 10px #ff000099, 0 0 15px #99000077, 0 0 20px #99000055;}
-	50% {color: #009900; text-shadow: 0 0 5px #009900bb, 0 0 10px #00ff0099, 0 0 15px #00990077, 0 0 20px #00990055;}
-	100% {color: #009900; text-shadow: 0 0 5px #009900bb, 0 0 10px #00ff0099, 0 0 15px #00990077, 0 0 20px #00990055;}
+	0% {color: #ff0000; text-shadow: 0 0 5px #ff0000bb, 0 0 10px #ff000099, 0 0 15px #ff000077, 0 0 20px #ff000055;}
+	49% {color: #ff0000; text-shadow: 0 0 5px #ff0000bb, 0 0 10px #ff000099, 0 0 15px #ff000077, 0 0 20px #ff000055;}
+	50% {color: #00ff00; text-shadow: 0 0 5px #00ff00bb, 0 0 10px #00ff0099, 0 0 15px #00ff0077, 0 0 20px #00ff0055;}
+	100% {color: #00ff00; text-shadow: 0 0 5px #00ff00bb, 0 0 10px #00ff0099, 0 0 15px #00ff0077, 0 0 20px #00ff0055;}
 }
 @keyframes christmas2 {
-	0% {color: #009900; text-shadow: 0 0 5px #009900bb, 0 0 10px #00ff0099, 0 0 15px #99000077, 0 0 20px #00990055;}
-	49% {color: #009900; text-shadow: 0 0 5px #009900bb, 0 0 10px #00ff0099, 0 0 15px #99000077, 0 0 20px #00990055;}
-	50% {color: #990000; text-shadow: 0 0 5px #990000bb, 0 0 10px #ff000099, 0 0 15px #00990077, 0 0 20px #99000055;}
-	100% {color: #990000; text-shadow: 0 0 5px #990000bb, 0 0 10px #ff000099, 0 0 15px #00990077, 0 0 20px #99000055;}
+	0% {color: #00ff00; text-shadow: 0 0 5px #00ff00bb, 0 0 10px #00ff0099, 0 0 15px #ff000077, 0 0 20px #00ff0055;}
+	49% {color: #00ff00; text-shadow: 0 0 5px #00ff00bb, 0 0 10px #00ff0099, 0 0 15px #ff000077, 0 0 20px #00ff0055;}
+	50% {color: #ff0000; text-shadow: 0 0 5px #ff0000bb, 0 0 10px #ff000099, 0 0 15px #00ff0077, 0 0 20px #ff000055;}
+	100% {color: #ff0000; text-shadow: 0 0 5px #ff0000bb, 0 0 10px #ff000099, 0 0 15px #00ff0077, 0 0 20px #ff000055;}
 }
 
 /*FITNESS*/
@@ -264,36 +264,6 @@ footer {
 	color: #e4f2ea;
 	/*animation: rotat 1.4s 1.2s linear infinite;*/
 }
-/*
-.beagles:hover .beagles1 {
-	color: #e4f2ea;
-	animation: rotat 0.1s linear infinite;
-}
-.beagles:hover .beagles2 {
-	color: #53391f;
-	animation: rotat 0.1s 0.01428571428s linear infinite;
-}
-.beagles:hover .beagles3 {
-	color: #e4f2ea;
-	animation: rotat 0.1s 0.02857142856s linear infinite;
-}
-.beagles:hover .beagles4 {
-	color: #734f2f;
-	animation: rotat 0.1s 0.04285714284s linear infinite;
-}
-.beagles:hover .beagles5 {
-	color: #e4f2ea;
-	animation: rotat 0.1s 0.05714285712s linear infinite;
-}
-.beagles:hover .beagles6 {
-	color: #cba987;
-	animation: rotat 0.1s 0.0714285714s linear infinite;
-}
-.beagles:hover .beagles7 {
-	color: #e4f2ea;
-	animation: rotat 0.1s 0.08571428568s linear infinite;
-}
-*/
 
 .beagles1 {
 	animation: b1 1s infinite linear;
@@ -331,7 +301,6 @@ footer {
 	83.333333333% {color: #53391f;}
 	100% {color: #53391f;}
 }
-
 @keyframes b2 {
 	0% {color: #cba987;}
 	16.666666665% {color: #cba987;}
@@ -346,7 +315,6 @@ footer {
 	83.333333333% {color: #e4f2ea;}
 	100% {color: #e4f2ea;}
 }
-
 @keyframes b3 {
 	0% {color: #e4f2ea;}
 	16.666666665% {color: #e4f2ea;}
@@ -361,7 +329,6 @@ footer {
 	83.333333333% {color: #cba987;}
 	100% {color: #cba987;}
 }
-
 @keyframes b4 {
 	0% {color: #734f2f;}
 	16.666666665% {color: #734f2f;}
@@ -376,7 +343,6 @@ footer {
 	83.333333333% {color: #e4f2ea;}
 	100% {color: #e4f2ea;}
 }
-
 @keyframes b5 {
 	0% {color: #e4f2ea;}
 	16.666666665% {color: #e4f2ea;}
@@ -391,7 +357,6 @@ footer {
 	83.333333333% {color: #734f2f;}
 	100% {color: #734f2f;}
 }
-
 @keyframes b6 {
 	0% {color: #53391f;}
 	16.666666665% {color: #53391f;}
@@ -406,7 +371,6 @@ footer {
 	83.333333333% {color: #e4f2ea;}
 	100% {color: #e4f2ea;}
 }
-
 @keyframes b7 {
 	0% {color: #e4f2ea;}
 	16.666666665% {color: #e4f2ea;}
