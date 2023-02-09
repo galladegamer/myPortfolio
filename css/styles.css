@@ -46,6 +46,11 @@ header .ranibow {
     -webkit-background-clip: text;
 }
 
+.logo {
+	float: right;
+	width: 20%;
+}
+
 h1 {
 	
 }
@@ -89,7 +94,7 @@ footer {
 .gallant {
 	color: #009900;
 	-webkit-text-stroke: 1px #006600;
-	font-size: 5em;
+	font-size: 4em;
 	font-family: 'Righteous', cursive;
 	text-align: center;
 }
@@ -101,6 +106,20 @@ footer {
 
 .youtube:hover {
 	color: #009900;
+}
+
+.walter {
+	color: #74a8ff;
+	transition: all .5s;
+}
+
+.walter:hover {
+	color: #b5d1ff;
+}
+
+.walter:active {
+	color: #ff0000;
+	transition: all 0s;
 }
 
 .webProjects {
