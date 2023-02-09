@@ -111,6 +111,8 @@ footer {
 	text-decoration: none;
 	transition: 0.3s all;
 	text-align: center;
+	background: linear-gradient(#000000, #000000);
+	-webkit-background-clip: text;
 }
 
 /*CHRISTMAS*/
@@ -234,56 +236,34 @@ footer {
 	display: inline-block;
 }
 
-/*THE BEAGLE ROTAT*/
+/*THE BEAGLE BLINK*/
 
 .beagles1 {
 	color: #e4f2ea;
-	/*animation: rotat 1.4s linear infinite;*/
-}
-.beagles2 {
-	color: #53391f;
-	/*animation: rotat 1.4s .2s linear infinite;*/
-}
-.beagles3 {
-	color: #e4f2ea;
-	/*animation: rotat 1.4s .4s linear infinite;*/
-}
-.beagles4 {
-	color: #734f2f;
-	/*animation: rotat 1.4s .6s linear infinite;*/
-}
-.beagles5 {
-	color: #e4f2ea;
-	/*animation: rotat 1.4s .8s linear infinite;*/
-}
-.beagles6 {
-	color: #cba987;
-	/*animation: rotat 1.4s 1s linear infinite;*/
-}
-.beagles7 {
-	color: #e4f2ea;
-	/*animation: rotat 1.4s 1.2s linear infinite;*/
-}
-
-.beagles1 {
 	animation: b1 1s infinite linear;
 }
 .beagles2 {
+	color: #53391f;
 	animation: b2 1s infinite linear;
 }
 .beagles3 {
+	color: #e4f2ea;
 	animation: b3 1s infinite linear;
 }
 .beagles4 {
+	color: #734f2f;
 	animation: b4 1s infinite linear;
 }
 .beagles5 {
+	color: #e4f2ea;
 	animation: b5 1s infinite linear;
 }
 .beagles6 {
+	color: #cba987;
 	animation: b6 1s infinite linear;
 }
 .beagles7 {
+	color: #e4f2ea;
 	animation: b7 1s infinite linear;
 }
 
@@ -386,12 +366,6 @@ footer {
 	100% {color: #53391f;}
 }
 
-/*
-@keyframes rotat {
-	0% {transform: rotate(0deg);}
-	100% {transform: rotate(360deg);}
-}
-*/
 /*VARIOUS COLORS*/
 #v1 {
 	color: #660000;
