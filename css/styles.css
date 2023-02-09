@@ -1,6 +1,6 @@
 /* CSS Document */
 
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Fredoka+One&family=Itim&family=Playfair+Display&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Fredoka+One&family=Itim&family=Playfair+Display&family=Righteous&family=Solway&display=swap');
 
 /* COLORS:
 
@@ -19,6 +19,7 @@ Round:               'Comfortaa', cursive;
 Christmas:           'Playfair Display', serif;
 Fitness:             'Fredoka One', cursive;
 Beagles:             'Itim', cursive;
+Mandatory Serif:     'Solway', serif;
 
 */
 
@@ -33,10 +34,10 @@ body {
 }
 
 header {
-	
+	background: linear-gradient(to bottom, #00ff00, #ffffff);
 }
 
-header h1 {
+header .ranibow {
 	text-align: center;
 	font-size: 5em;
 	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(https://art.pixilart.com/27ba4123b71d064.gif);
@@ -50,7 +51,14 @@ h1 {
 }
 
 main {
-	
+
+}
+
+main p {
+	font-family: 'Solway', serif;
+	font-size: 2em;
+	max-width: 80%;
+	margin: 0 auto;
 }
 
 a {
@@ -84,6 +92,15 @@ footer {
 	font-size: 5em;
 	font-family: 'Righteous', cursive;
 	text-align: center;
+}
+
+.youtube {
+	color: #005500;
+	transition: all .5s;
+}
+
+.youtube:hover {
+	color: #009900;
 }
 
 .webProjects {
@@ -230,10 +247,6 @@ footer {
 .beagles:hover {
 	font-size: 4.2em;
 	opacity: 1;
-}
-
-.beagles p {
-	display: inline-block;
 }
 
 /*THE BEAGLE BLINK*/
