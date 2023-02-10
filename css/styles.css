@@ -1,6 +1,8 @@
 /* CSS Document */
 
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Comfortaa&family=Fredoka+One&family=Itim&family=Playfair+Display&family=Righteous&family=Solway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Comfortaa&family=Creepster&family=Dokdo&family=Fredoka+One&family=Itim&family=Playfair+Display&family=Righteous&family=Solway&display=swap');
+@import url('https://fonts.cdnfonts.com/css/circus');
+@import url('https://fonts.cdnfonts.com/css/chiller');
 
 /* COLORS:
 
@@ -34,7 +36,7 @@ body {
 }
 
 header {
-	background: linear-gradient(to bottom, #00ff00, #ffffff);
+	background: linear-gradient(to bottom, #00ff00, #ffcccc);
 }
 
 header .ranibow {
@@ -56,7 +58,7 @@ h1 {
 }
 
 main {
-
+	background: linear-gradient(to bottom, #ffcccc, #ffffcc, #ccffcc, #ccccff, #ffcccc);
 }
 
 main p {
@@ -95,14 +97,39 @@ div {
 	min-height: 300px;
 }
 
+.intro {
+	background: linear-gradient(to bottom, #ffcccc, #ffffcc);
+}
+
+.web {
+	background: linear-gradient(to bottom, #ffffcc, #ccffcc);
+}
+
+.games {
+	background: linear-gradient(to bottom, #ccffcc, #ccccff);
+}
+
+.youtubing {
+	background: linear-gradient(to bottom, #ccccff, #ffcccc);
+}
+
 .game {
 	font-size: 3em;
-	font-family: 'Abril Fatface', serif;
+	font-family: 'Circus', 'Abril Fatface', serif;
 	color: #550000;
+	background: #ffff00;
+	-webkit-background-clip: text;
+}
+
+#two {
+	font-family: 'Chiller', 'Creepster', 'Circus', 'Abril Fatface', serif;
+	font-weight: bold;
+	font-size: 1.8em;
 }
 
 .scratch {
 	color: #999900;
+	font-family: 'Abril Fatface', serif;
 	transition: all 0.3s;
 }
 
@@ -117,6 +144,7 @@ div {
 
 .gamejolt {
 	color: #009900;
+	font-family: 'Abril Fatface', serif;
 	transition: all 0.3s;
 }
 
@@ -130,15 +158,16 @@ div {
 }
 
 .titling {
-	color: #003300;
+	border-top: 2px dotted #009900;
+	color: #009900;
 	font-size: 5em;
 	text-align: center;
 	animation: blonk 10s infinite alternate ease-in-out;
 }
 
 @keyframes blonk {
-	0% {color: #005500;}
-	100% {color: #000000;}
+	0% {color: #009900;}
+	100% {color: #003300;}
 }
 
 .gallant {
@@ -172,12 +201,56 @@ div {
 	transition: all 0s;
 }
 
+.youtuber {
+	font-size: 5em;
+	text-align: center;
+	margin: 0 auto;
+}
+
+#gateway {
+	background-image: url("https://media.tenor.com/V4ZBn6ixjHcAAAAC/vhs-glitch.gif");
+	background-size: cover;
+    color: #ff000000;
+	transition: all 0.3s;
+	font-family: 'Creepster', cursive;
+	font-size: 2em;
+}
+
+#gateway:hover {
+    color: #ff000099;
+	font-size: 2.1em;
+}
+
+#gateway:active {
+	color: #ff0000ff;
+	transition: all 0s;
+}
+
+#galladegamer {
+	color: #005500;
+	transition: all 0.3s;
+	font-size: 1.5em;
+	font-family: 'Dokdo', cursive;
+	-webkit-text-stroke: 3px #003b00;
+}
+#galladegamer:hover {
+    color: #009900;
+	-webkit-text-stroke: 3px #006b00;
+	font-size: 1.6em;
+}
+
+#galladegamer:active {
+	color: #00ff00;
+	-webkit-text-stroke: 3px #00b200;
+	transition: all 0s;
+}
+
 .webProjects {
 	padding: 10px 0;
 	width: 100%;
 }
 
-.webProjects ul{
+.webProjects ul {
 	display: block;
 	text-align: center;
 	margin: 0;
@@ -199,6 +272,7 @@ div {
 	text-align: center;
 	background: linear-gradient(#000000, #000000);
 	-webkit-background-clip: text;
+	background-clip: text;
 }
 
 /*CHRISTMAS*/
