@@ -113,6 +113,15 @@ div {
 	
 }
 
+.turnRed {
+	color: #000000;
+	transition: all .3s;
+}
+
+.turnRed:hover {
+	color: #990000;
+}
+
 .skills li, .experience li, .awards li {
 	font-family: 'Solway', serif;
 	font-size: 2em;
