@@ -1,6 +1,0 @@
-http://www.exampledomain.com/index.html
-http://www.exampledomain.com/template.html
-http://www.exampledomain.com/nutrition.html
-http://www.exampledomain.com/contact.html
-http://www.exampledomain.com/classes.html
-http://www.exampledomain.com/about.html

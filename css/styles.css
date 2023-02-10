@@ -98,19 +98,62 @@ div {
 }
 
 .intro {
-	background: linear-gradient(to bottom, #ffcccc, #ffffcc);
+	
 }
 
 .web {
-	background: linear-gradient(to bottom, #ffffcc, #ccffcc);
+	
 }
 
 .games {
-	background: linear-gradient(to bottom, #ccffcc, #ccccff);
+	
 }
 
 .youtubing {
-	background: linear-gradient(to bottom, #ccccff, #ffcccc);
+	
+}
+
+.skills li, .experience li, .awards li {
+	font-family: 'Solway', serif;
+	font-size: 2em;
+	max-width: 80%;
+	margin: 0 auto;
+	margin-left: 15%;
+}
+
+.redList {
+	color: #990000;
+	transition: all 0.3s;
+}
+
+.yellowList {
+	color: #999900;
+	transition: all 0.3s;
+}
+
+.greenList {
+	color: #009900;
+	transition: all 0.3s;
+}
+
+.blueList {
+	color: #000099;
+	transition: all 0.3s;
+}
+
+.purpleList {
+	color: #842593;
+	transition: all 0.3s;
+}
+
+.redList a:hover {
+	color: #cc0000;
+}
+.greenList a:hover {
+	color: #00cc00;
+}
+.blueList a:hover {
+	color: #0000cc;
 }
 
 .game {
