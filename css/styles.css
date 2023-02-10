@@ -215,7 +215,7 @@ div {
 	background-size: cover;
     color: #ff000000;
 	transition: all 0.3s;
-	font-family: 'Creepster', 'Chiller' cursive;
+	font-family: 'Creepster', 'Chiller', cursive;
 	font-size: 2em;
 }
 
