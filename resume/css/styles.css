@@ -276,6 +276,16 @@ div {
 	100% {color: #003300;}
 }
 
+#resumeLink {
+	width: 80%;
+	font-size: 4em;
+	text-align: center;
+	margin: 0 auto;
+}
+#resumeLink a {
+	color: #005500;
+}
+
 .gallant {
 	color: #009900;
 	-webkit-text-stroke: 1px #006600;
