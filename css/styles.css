@@ -102,14 +102,14 @@ header .ranibow {
 
 #masterNav a {
 	text-decoration: none;
-	font-size: 1.8em;
+	font-size: 3em;
 	transition: 0.3s all;
 	font-family: 'Chewy', cursive;
 }
 
 #masterNav a:hover {
 	color: #009900;
-	font-size: 2.1em;
+	font-size: 3.1em;
 }
 
 main {
@@ -284,6 +284,11 @@ div {
 }
 #resumeLink a {
 	color: #005500;
+	transition: all .3s;
+}
+
+#resumeLink a:hover {
+	color: #009900;
 }
 
 .gallant {
