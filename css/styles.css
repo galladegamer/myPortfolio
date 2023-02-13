@@ -1,6 +1,6 @@
 /* CSS Document */
 
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Comfortaa&family=Creepster&family=Dokdo&family=Fredoka+One&family=Itim&family=Playfair+Display&family=Righteous&family=Solway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bungee&family=Chewy&family=Comfortaa&family=Creepster&family=Dokdo&family=Fredoka+One&family=Itim&family=Playfair+Display&family=Press+Start+2P&family=Righteous&family=Solway&display=swap');
 @import url('https://fonts.cdnfonts.com/css/circus');
 @import url('https://fonts.cdnfonts.com/css/chiller');
 
@@ -46,6 +46,7 @@ header .ranibow {
 	background-size: cover;
 	-webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
+	background-clip: text;
 }
 
 .logo {
@@ -53,8 +54,62 @@ header .ranibow {
 	width: 20%;
 }
 
-h1 {
-	
+#backToTop {
+	text-align: center;
+    position: fixed;
+    bottom: 1%;
+	right: 43%;
+	background-color: #ffff99;
+	color: #777700;
+	padding:.5%;
+	border-radius: 15px;
+	font-size: 1.1em;
+	font-family: 'Press Start 2P', cursive;
+	opacity: .5;
+	transition: all .3s;
+}
+
+#backToTop:hover {
+	opacity: 1;
+}
+
+#masterNav {
+	padding: 10px 0;
+	width: 100%;
+	background: #842593;
+	animation: navcolor 10s infinite alternate ease-in-out
+}
+
+@keyframes navcolor {
+	0% {background-color: #842593;}
+	100% {background-color: #b00b69;}
+}
+
+#masterNav ul {
+	display: block;
+	text-align: center;
+	margin: 0;
+	border: 0;
+	padding: 0;
+	width: 100%;
+}
+
+#masterNav ul li {
+	display: inline-block;
+	list-style: none;
+	margin: 5px 22px;
+}
+
+#masterNav a {
+	text-decoration: none;
+	font-size: 1.8em;
+	transition: 0.3s all;
+	font-family: 'Chewy', cursive;
+}
+
+#masterNav a:hover {
+	color: #009900;
+	font-size: 2.1em;
 }
 
 main {
@@ -73,44 +128,38 @@ a {
 	text-decoration: none;
 }
 
-a:link {
-	
-}
-
-a:hover {
-	
-}
-
-a:active {
-	
-}
-
-a:visited {
-	
-}
-
-footer {
-	
-}
-
 div {
 	min-height: 300px;
 }
 
-.intro {
-	
+#youtubing {
+	min-height: 500px;
 }
 
-.web {
-	
+#contact {
+	min-height: 400px;
 }
 
-.games {
-	
+#contact ul li {
+	display: block;
+	font-size: 5em;
+	transition: all 0.3s;
+	margin: 0 10%;
 }
 
-.youtubing {
-	
+#contact ul li a {
+	font-family: 'Bungee', cursive;
+	color: #000000;
+}
+
+#contact ul li a:hover {
+	font-size: 1.1em;
+	color: #009900;
+}
+
+#contact ul li a:active {
+	transition: all 0s;
+	color: #00ff00;
 }
 
 .turnRed {
@@ -122,7 +171,11 @@ div {
 	color: #990000;
 }
 
-.skills li, .experience li, .awards li {
+#education, #skills, #experience, #awards {
+	min-height: 400px;
+}
+
+#skills li, #experience li, #awards li {
 	font-family: 'Solway', serif;
 	font-size: 2em;
 	max-width: 80%;
@@ -169,8 +222,6 @@ div {
 	font-size: 3em;
 	font-family: 'Circus', 'Abril Fatface', serif;
 	color: #550000;
-	background: #ffff00;
-	-webkit-background-clip: text;
 }
 
 #two {
@@ -269,6 +320,8 @@ div {
 	transition: all 0.3s;
 	font-family: 'Creepster', 'Chiller', cursive;
 	font-size: 2em;
+	-webkit-background-clip: text;
+	background-clip: text;
 }
 
 #gateway:hover {
@@ -300,12 +353,12 @@ div {
 	transition: all 0s;
 }
 
-.webProjects {
+.proj {
 	padding: 10px 0;
 	width: 100%;
 }
 
-.webProjects ul {
+.proj ul {
 	display: block;
 	text-align: center;
 	margin: 0;
@@ -314,20 +367,24 @@ div {
 	width: 100%;
 }
 
-.webProjects ul li {
+.proj ul li {
 	display: inline-block;
 	list-style: none;
 	margin: 0 2%;
 	padding: 0 auto;
 }
 
-.webProjects a {
+.proj a {
 	text-decoration: none;
 	transition: 0.3s all;
 	text-align: center;
 	background: linear-gradient(#000000, #000000);
 	-webkit-background-clip: text;
 	background-clip: text;
+}
+
+.italics {
+	font-style: italic;
 }
 
 /*CHRISTMAS*/
