@@ -649,6 +649,27 @@ div {
 	100% {color: #53391f;}
 }
 
+#caribbean {
+	font-family: 'Lobster', cursive;
+	font-size: 4em;
+	transition: .3s all;
+    background-image: linear-gradient(to right, #0077ff 49%, #0099ff 50%, #00ccbb 90%);
+	background-size: 200% 100%;
+    -webkit-background-clip: text;
+	background-clip: text;
+	color: transparent;
+	animation: gradient 5s ease-in infinite alternate;
+}
+
+#caribbean:hover {
+	font-size: 4.1em;
+}
+
+@keyframes gradient {
+    0%{background-position:0% 0}
+    100%{background-position:100% 0}
+}
+
 /*VARIOUS COLORS*/
 #v1 {
 	color: #660000;

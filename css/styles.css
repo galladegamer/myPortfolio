@@ -651,9 +651,6 @@ main p {
 
 /*CARIBBEAN BEACHES*/
 
-.caribbean {
-
-}
 #caribbean {
 	font-family: 'Lobster', cursive;
 	font-size: 4em;
@@ -664,6 +661,10 @@ main p {
 	background-clip: text;
 	color: transparent;
 	animation: gradient 5s ease-in infinite alternate;
+}
+
+#caribbean:hover {
+	font-size: 4.1em;
 }
 
 @keyframes gradient {
