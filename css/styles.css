@@ -310,6 +310,7 @@ main p {
 .walter {
 	color: #74a8ff;
 	transition: all .5s;
+	text-decoration: none;
 }
 
 .walter:hover {
