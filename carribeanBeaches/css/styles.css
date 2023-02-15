@@ -1,0 +1,294 @@
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Luckiest+Guy&family=Righteous&family=Sono&display=swap');
+
+/* RESET CODE */
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+.hnav {
+	display: none;
+}
+.fnav {
+	display: none;
+}
+
+/*Style rules for navigation area*/
+
+.mnav {
+	background-image: linear-gradient(to bottom, #3355ff, #77ccff);
+}
+
+.mnav a {
+    color: #000055;
+    text-align: center;
+    font-size: 2em;
+    text-decoration: none;
+    padding: 3%;
+    display: block;
+	font-family: 'Righteous', cursive;
+	transition: all .3s;
+}
+
+.mnav a:hover {
+	color: #000099;
+	letter-spacing: 2px;
+}
+
+.nav-icon {
+    display: block;
+    left: 0;
+    top: 0;
+    color: #ffffff;
+    padding: 2%;
+}
+
+#caw {
+	background-image: linear-gradient(to bottom, #3355ff, #77ccff);
+}
+
+#nav-links {
+	display: none;
+}
+
+.nav-icon:hover {
+	cursor: pointer;
+}
+
+body {
+	background-image: linear-gradient(to bottom, #f6e3d4, #eecaae);
+}
+
+header {
+	min-height: 300px;
+	background-image: url("../images/home_Beach.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom;
+}
+
+@keyframes gradient {
+    0%{background-position:0% 0}
+    100%{background-position:100% 0}
+}
+
+header h1 {
+	text-align: center;
+	color: #0000ff;
+	font-weight: bold;
+	font-size: 3em;
+	font-family: 'Luckiest Guy', sans-serif;
+	-webkit-text-stroke: .1px #000088;
+}
+
+header h2 {
+	text-align: center;
+	color: #0000cc;
+	font-size: 3em;
+	font-family: 'Fredoka One', sans-serif;
+	-webkit-text-stroke: 1px #000066;
+}
+
+main {
+	font-family: 'Sono', serif;
+	letter-spacing: -1px;
+	line-height: -10px;
+	font-weight: bold;
+	width: 100%;
+	min-height: 600px;
+	font-size: 1em;
+	color: #000055;
+}
+
+main h1 {
+	text-align: center;
+	font-family: 'Luckiest Guy', sans-serif;
+}
+
+main a {
+	text-decoration: none;
+	color: #000099;
+	transition: all .3s;
+}
+
+main a:hover {
+	text-decoration: none;
+	color: #0000ff;
+}
+
+/*BUTTONS*/
+
+.button {
+	padding: 5px 10px;
+	border-radius: 10px;
+	background-color: #7799ff;
+	font-weight: bold;
+	font-size:.8em;
+	color: #000055;
+	transition: 0.2s all;
+}
+
+.button:hover {
+	cursor: pointer;
+	background-color: #ba9899;
+}
+
+#submit:hover {
+	background-color: #badd99;
+	color: #155611;
+}
+
+#reset:hover {
+	background-color: #ff9899;
+	color: #601111;
+}
+
+#container {
+	padding: 5% 0;
+	margin: 0 auto;
+	width: 80%;
+	min-height: 200px;
+}
+
+footer {
+	background-color: #ffffff;
+}
+
+img {
+	width: 100%;
+}
+
+.image {
+	text-align: center;
+}
+
+label {
+	color: #000055;
+}
+
+footer h4, footer h5, footer h6 {
+	text-align: center;
+	margin: 1px;
+}
+
+@media screen and (min-width: 1000px), print {
+	
+	.mnav {
+	    display: none;
+	}
+	
+	.hnav {
+		display: block;
+	}
+	.fnav {
+		display: block;
+	}
+	
+	.hnav {
+	    background-image: linear-gradient(to right, #0077ff 49%, #0099ff 50%, #00ccbb 90%);
+		background-size: 200% 100%;
+	    animation: gradient 5s ease-in infinite alternate;
+	}
+	
+	@keyframes gradient {
+	    0%{background-position:0% 0}
+	    100%{background-position:100% 0}
+	}
+	
+	.hnav ul {
+		display: block;
+		text-align: center;
+		margin: 0;
+		border: 0;
+		padding: 0;
+		width: 100%;
+	}
+	
+	.hnav ul li {
+		display: inline-block;
+		list-style: none;
+		width: 19%;
+	}
+	
+	.hnav a {
+		color: #000000;
+		text-decoration: none;
+		transition: 0.3s all;
+		font-family: 'Righteous', cursive;
+		font-size: 2em;
+	}
+	
+	.hnav a:hover {
+		color: #000099;
+		letter-spacing: 1px;
+	}
+	
+	.hnav a:active {
+		color: #0000ff;
+		letter-spacing: 1px;
+		transition: all 0s;
+	}
+	
+	header h1 {
+		text-align: center;
+		color: #0000ff;
+		font-weight: bold;
+		font-size: 5em;
+		font-family: 'Luckiest Guy', sans-serif;
+		-webkit-text-stroke: .1px #000088;
+	}
+	
+	main {
+		font-family: 'Sono', serif;
+		letter-spacing: -1px;
+		line-height: -10px;
+		font-weight: bold;
+		width: 100%;
+		min-height: 600px;
+		font-size: 1.5em;
+		color: #000055;
+	}
+	
+	.fnav {
+	    background-image: linear-gradient(to right, #0077ff 49%, #0099ff 50%, #00ccbb 90%);
+		background-size: 200% 100%;
+	    animation: gradient 5s ease-in infinite alternate;
+	}
+	
+	.fnav ul {
+		display: block;
+		text-align: center;
+		margin: 0;
+		border: 0;
+		padding: 0;
+		width: 100%;
+	}
+	
+	.fnav ul li {
+		display: inline-block;
+		list-style: none;
+		width: 19%;
+	}
+	
+	.fnav a {
+		color: #000000;
+		text-decoration: none;
+		transition: 0.3s all;
+		font-family: 'Righteous', cursive;
+		font-size: 2em;
+	}
+	
+	.fnav a:hover {
+		color: #000099;
+		letter-spacing: 1px;
+	}
+	
+	.fnav a:active {
+		color: #0000ff;
+		letter-spacing: 1px;
+		transition: all 0s;
+	}
+}
