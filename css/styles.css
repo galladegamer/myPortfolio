@@ -1,6 +1,6 @@
 /* CSS Document */
 
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bungee&family=Chewy&family=Comfortaa&family=Creepster&family=Dokdo&family=Fredoka+One&family=Itim&family=Playfair+Display&family=Press+Start+2P&family=Righteous&family=Solway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bungee&family=Chewy&family=Comfortaa&family=Creepster&family=Dokdo&family=Fredoka+One&family=Itim&family=Lobster&family=Playfair+Display&family=Press+Start+2P&family=Righteous&family=Solway&display=swap');
 @import url('https://fonts.cdnfonts.com/css/circus');
 @import url('https://fonts.cdnfonts.com/css/chiller');
 
@@ -29,6 +29,10 @@ Mandatory Serif:     'Solway', serif;
 	padding: 0;
 	border: 0;
 	margin: 0;
+}
+
+#backToTop, #resumeLink, #resume, #galladegamer, #gateway, .walter, .efinu, .youtube, .redList a, .yellowList a, .greenList a, .blueList a, .purpleList a {
+	text-decoration: none;
 }
 
 body {
@@ -101,6 +105,7 @@ header .ranibow {
 }
 
 #masterNav a {
+	color: #000000;
 	text-decoration: none;
 	font-size: 3em;
 	transition: 0.3s all;
@@ -123,13 +128,12 @@ main p {
 	margin: 0 auto;
 }
 
-a {
-	color: #000000;
-	text-decoration: none;
+.container {
+	min-height: 300px;
 }
 
-div {
-	min-height: 300px;
+.spacing {
+	min-height: 100px;
 }
 
 #youtubing {
@@ -229,7 +233,6 @@ div {
 	font-weight: bold;
 	font-size: 1.8em;
 	transform: rotate(15deg);
-	translate: -25px;
 	display: inline-block;
 }
 
@@ -281,7 +284,6 @@ div {
 	font-size: 4em;
 	text-align: center;
 	margin: 0 auto;
-	text-decoration: none;
 }
 #resumeLink a {
 	color: #005500;
@@ -312,7 +314,6 @@ div {
 .walter {
 	color: #74a8ff;
 	transition: all .5s;
-	text-decoration: none;
 }
 
 .walter:hover {
@@ -357,7 +358,6 @@ div {
 	font-size: 1.5em;
 	font-family: 'Dokdo', cursive;
 	-webkit-text-stroke: 3px #003b00;
-	text-decoration: none;
 }
 #galladegamer:hover {
     color: #009900;
@@ -396,7 +396,6 @@ div {
 	text-decoration: none;
 	transition: 0.3s all;
 	text-align: center;
-	background: linear-gradient(#000000, #000000);
 	-webkit-background-clip: text;
 	background-clip: text;
 }
@@ -448,6 +447,7 @@ div {
 	font-family: 'Fredoka One', cursive;
 	transition: .8s all;
 	opacity: 0.8;
+	color: #000000;
 }
 
 .fitness:hover {
@@ -458,6 +458,7 @@ div {
 /*THE FITNESS SHUFFLE*/
 
 .fitness div {
+	max-width: 100px;
 	display: inline-block;
 }
 
@@ -652,6 +653,8 @@ div {
 	100% {color: #53391f;}
 }
 
+/*CARIBBEAN BEACHES*/
+
 #caribbean {
 	font-family: 'Lobster', cursive;
 	font-size: 4em;
@@ -662,10 +665,6 @@ div {
 	background-clip: text;
 	color: transparent;
 	animation: gradient 5s ease-in infinite alternate;
-}
-
-#caribbean:hover {
-	font-size: 4.1em;
 }
 
 @keyframes gradient {
