@@ -281,6 +281,7 @@ div {
 	font-size: 4em;
 	text-align: center;
 	margin: 0 auto;
+	text-decoration: none;
 }
 #resumeLink a {
 	color: #005500;
@@ -356,6 +357,7 @@ div {
 	font-size: 1.5em;
 	font-family: 'Dokdo', cursive;
 	-webkit-text-stroke: 3px #003b00;
+	text-decoration: none;
 }
 #galladegamer:hover {
     color: #009900;
