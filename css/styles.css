@@ -1,6 +1,6 @@
 /* CSS Document */
 
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bungee&family=Chewy&family=Comfortaa&family=Creepster&family=Dokdo&family=Fredoka+One&family=Itim&family=Playfair+Display&family=Press+Start+2P&family=Righteous&family=Solway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bungee&family=Chewy&family=Comfortaa&family=Creepster&family=Dokdo&family=Fredoka+One&family=Itim&family=Lobster&family=Playfair+Display&family=Press+Start+2P&family=Righteous&family=Solway&display=swap');
 @import url('https://fonts.cdnfonts.com/css/circus');
 @import url('https://fonts.cdnfonts.com/css/chiller');
 
@@ -101,6 +101,7 @@ header .ranibow {
 }
 
 #masterNav a {
+	color: #000000;
 	text-decoration: none;
 	font-size: 3em;
 	transition: 0.3s all;
@@ -123,13 +124,12 @@ main p {
 	margin: 0 auto;
 }
 
-a {
-	color: #000000;
-	text-decoration: none;
+.container {
+	min-height: 300px;
 }
 
-div {
-	min-height: 300px;
+.spacing {
+	min-height: 100px;
 }
 
 #youtubing {
@@ -229,7 +229,6 @@ div {
 	font-weight: bold;
 	font-size: 1.8em;
 	transform: rotate(15deg);
-	translate: -25px;
 	display: inline-block;
 }
 
@@ -393,7 +392,6 @@ div {
 	text-decoration: none;
 	transition: 0.3s all;
 	text-align: center;
-	background: linear-gradient(#000000, #000000);
 	-webkit-background-clip: text;
 	background-clip: text;
 }
@@ -445,6 +443,7 @@ div {
 	font-family: 'Fredoka One', cursive;
 	transition: .8s all;
 	opacity: 0.8;
+	color: #000000;
 }
 
 .fitness:hover {
@@ -455,6 +454,7 @@ div {
 /*THE FITNESS SHUFFLE*/
 
 .fitness div {
+	max-width: 100px;
 	display: inline-block;
 }
 
@@ -647,6 +647,28 @@ div {
 	83.333333332% {color: #e4f2ea;}
 	83.333333333% {color: #53391f;}
 	100% {color: #53391f;}
+}
+
+/*CARIBBEAN BEACHES*/
+
+.caribbean {
+
+}
+#caribbean {
+	font-family: 'Lobster', cursive;
+	font-size: 4em;
+	transition: .3s all;
+    background-image: linear-gradient(to right, #0077ff 49%, #0099ff 50%, #00ccbb 90%);
+	background-size: 200% 100%;
+    -webkit-background-clip: text;
+	background-clip: text;
+	color: transparent;
+	animation: gradient 5s ease-in infinite alternate;
+}
+
+@keyframes gradient {
+    0%{background-position:0% 0}
+    100%{background-position:100% 0}
 }
 
 /*VARIOUS COLORS*/
