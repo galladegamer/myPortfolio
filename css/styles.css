@@ -689,11 +689,11 @@ main p {
 	color: #2a1f14;
 	animation: coloring 1s infinite alternate ease-in-out;
 	transition: .3s all;
-	font-size: 3em;
+	font-size: 4em;
 	opacity: .8;
 }
 #rescue:hover {
-	font-size: 3.1em;
+	font-size: 4.1em;
 	opacity: 1;
 }
 
