@@ -1,6 +1,6 @@
 /* CSS Document */
 
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bungee&family=Chewy&family=Comfortaa&family=Creepster&family=Dokdo&family=Fredoka+One&family=Itim&family=Lobster&family=Playfair+Display&family=Press+Start+2P&family=Righteous&family=Solway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bungee&family=Chewy&family=Coiny&family=Comfortaa&family=Creepster&family=Dokdo&family=Fredoka+One&family=Itim&family=Lobster&family=Playfair+Display&family=Press+Start+2P&family=Righteous&family=Solway&display=swap');
 @import url('https://fonts.cdnfonts.com/css/circus');
 @import url('https://fonts.cdnfonts.com/css/chiller');
 
@@ -665,11 +665,45 @@ main p {
 	background-clip: text;
 	color: transparent;
 	animation: gradient 5s ease-in infinite alternate;
+	opacity: .8;
+}
+
+#caribbean:hover {
+	font-size: 4.1em;
+	opacity: 1;
 }
 
 @keyframes gradient {
     0%{background-position:0% 0}
     100%{background-position:100% 0}
+}
+
+/*WILD RESCUE*/
+
+.rescue {
+	transform: rotate(10deg);
+	font-family: 'Coiny', cursive;
+	animation: tilt 1s infinite alternate ease-in-out;
+}
+#rescue {
+	color: #2a1f14;
+	animation: coloring 1s infinite alternate ease-in-out;
+	transition: .3s all;
+	font-size: 3em;
+	opacity: .8;
+}
+#rescue:hover {
+	font-size: 3.1em;
+	opacity: 1;
+}
+
+@keyframes tilt {
+	0% {transform: rotate(10deg);}
+	100% {transform: rotate(-10deg);}
+}
+@keyframes coloring {
+	0% {color: #2a1f14}
+	100% {color: #664b30}
 }
 
 /*VARIOUS COLORS*/
