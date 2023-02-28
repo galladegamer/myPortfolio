@@ -1,0 +1,181 @@
+/* CSS Document */
+
+* {
+	padding: 0;
+	border: 0;
+	margin: 0;
+}
+
+img {
+	max-width: 80%;
+}
+
+body {
+	color: #1B2A35;
+	background: linear-gradient(to bottom, #a1a5a2 1%, #f2f3f3 2%);
+}
+
+main {
+	width: 80%;
+	font-size: 2em;
+	font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', 'Helvetica', 'Arial', 'sans-serif';
+	margin: 0 auto;
+}
+
+h1 {
+	text-align: center;
+	font-weight: bolder;
+}
+
+.hnav {
+	display: none;
+}
+.fnav {
+	display: none;
+}
+
+.center {
+	text-align: center;
+}
+
+.image {
+	max-width: 50%;
+}
+
+.mnav {
+	background: linear-gradient(to top, #f2f3f3, #a1a5a2);
+}
+
+.mnav a {
+    text-align: center;
+    font-size: 2em;
+    text-decoration: none;
+    display: block;
+	transition: all .3s;
+	margin: 2%;
+}
+
+.nav-icon {
+    display: block;
+    left: 0;
+    top: 0;
+    color: #1B2A35;
+}
+
+#caw {
+}
+
+#nav-links {
+	display: none;
+}
+
+.nav-icon:hover {
+	cursor: pointer;
+}
+
+.hnav {
+	background: linear-gradient(to top, #f2f3f3, #a1a5a2);
+}
+
+.fnav {
+	background: linear-gradient(to bottom, #f2f3f3, #a1a5a2);
+}
+
+nav ul {
+	text-align: center;
+}
+
+nav ul li {
+	display: inline-block;
+	padding: 0 1%;
+}
+
+nav a {
+	font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', 'Helvetica', 'Arial', 'sans-serif';
+	font-weight: bolder;
+	color: #1B2A35;
+	text-decoration: none;
+	font-size: 2.5em;
+	transition: all .3s;
+}
+nav a:hover {
+	font-size: 2.7em;
+}
+
+nav .nav1:hover {
+	color: #7b2e2f;
+}
+nav .nav2:hover {
+	color: #b08e44;
+}
+nav .nav3:hover {
+	color: #287F47;
+}
+nav .nav4:hover {
+	color: #23478b;
+}
+nav .nav5:hover {
+	color: #6B327C;
+}
+
+nav .nav1:active {
+	color: #ff0000;
+	transition: all 0s;
+}
+nav .nav2:active {
+	color: #ffff00;
+	transition: all 0s;
+}
+nav .nav3:active {
+	color: #00ff00;
+	transition: all 0s;
+}
+nav .nav4:active {
+	color: #0000ff;
+	transition: all 0s;
+}
+nav .nav5:active {
+	color: #aa00aa;
+	transition: all 0s;
+}
+
+.button {
+	padding: 5px 10px;
+	border-radius: 10px;
+	background-color: #a1a5a2;
+	font-weight: bold;
+	font-size:.8em;
+	color: #000000;
+	transition: 0.2s all;
+}
+
+.button:hover {
+	cursor: pointer;
+	background-color: #989898;
+	color: #000000;
+}
+
+#submit:hover {
+	background-color: #ccffcc;
+	color: #287f47;
+}
+
+#reset:hover {
+	background-color: #ffc9c9;
+	color: #7b2e2f;
+}
+
+@media screen and (min-width: 1000px), print {
+	
+	.mnav {
+	    display: none;
+	}
+	
+	.hnav {
+		display: block;
+	}
+	
+	.fnav {
+		display: block;
+	}
+}

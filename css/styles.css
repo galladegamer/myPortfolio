@@ -31,7 +31,7 @@ Mandatory Serif:     'Solway', serif;
 	margin: 0;
 }
 
-#backToTop, #resumeLink, #resume, #galladegamer, #gateway, .walter, .efinu, .youtube, .turnRed, .redList a, .yellowList a, .greenList a, .blueList a, .purpleList a {
+a {
 	text-decoration: none;
 }
 
@@ -704,6 +704,20 @@ main p {
 @keyframes coloring {
 	0% {color: #2a1f14}
 	100% {color: #664b30}
+}
+
+/*ROBLOX*/
+
+#robloxlink {
+	max-width: 25%;
+	opacity: 0.8;
+	transition: .3s all;
+	margin-top: 5%;
+}
+
+#robloxlink:hover {
+	max-width: 27.5%;
+	opacity: 1;
 }
 
 /*VARIOUS COLORS*/
