@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>St. Lawrence Seaway: Template</title>
+		<link rel="stylesheet" href="css/styles.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link rel="icon" type="image/png" sizes="32x32" href="images/logo.png">
+		<script src="script/script.js"></script>
+	</head>
+	
+	<body>
+		<nav class="mnav" id="mnav">
+			<div id="nav-links">
+			<ul id="moreLinks">
+				<li><a id="m1" onmouseover="chbg2('#C37372', '#550000', '1', '0.6', '0.6', '0.6', '0.6', '0.6', '2.01em', '1.99em', '1.99em', '1.99em', '1.99em')" onmouseout="chbg2('#C0C0C0', '#191923', '1', '1', '1', '1', '1', '2em', '2em', '2em', '2em', '2em')" href="index.html" onclick="another('#FF0000', '#555500', '#005500', '#000055', '#421249')">HOME</a></li>
+				<li><a id="m2" onmouseover="chbg2('#EAC882', '#555500', '0.6', '1', '0.6', '0.6', '0.6', '0.6', '1.99em', '2.01em', '1.99em', '1.99em', '1.99em')" onmouseout="chbg2('#C0C0C0', '#191923', '1', '1', '1', '1', '1', '2em', '2em', '2em', '2em', '2em')" href="history.html" onclick="another('#550000', '#ffff00', '#005500', '#000055', '#421249')">HISTORY</a></li>
+				<li><a id="m3" onmouseover="chbg2('#808A4E', '#005500', '0.6', '0.6', '1', '0.6', '0.6', '0.6', '1.99em', '1.99em', '2.01em', '1.99em', '1.99em')" onmouseout="chbg2('#C0C0C0', '#191923', '1', '1', '1', '1', '1', '2em', '2em', '2em', '2em', '2em')" href="ecology.html" onclick="another('#550000', '#555500', '#00ff00', '#000055', '#421249')">ECOLOGY</a></li>
+				<li><a id="m4" onmouseover="chbg2('#4192AF', '#000055', '0.6', '0.6', '0.6', '1', '0.6', '0.6', '1.99em', '1.99em', '1.99em', '2.01em', '1.99em')" onmouseout="chbg2('#C0C0C0', '#191923', '1', '1', '1', '1', '1', '2em', '2em', '2em', '2em', '2em')" href="locks.html" onclick="another('#550000', '#555500', '#005500', '#0000ff', '#421249')">LOCKS</a></li>
+				<li><a id="m5" onmouseover="chbg2('#8D6298', '#421249', '0.6', '0.6', '0.6', '0.6', '1', '0.6', '1.99em', '1.99em', '1.99em', '1.99em', '2.01em')" onmouseout="chbg2('#C0C0C0', '#191923', '1', '1', '1', '1', '1', '2em', '2em', '2em', '2em', '2em')" href="newsletter.html" onclick="another('#550000', '#555500', '#005500', '#000055', '#dc00ff')">NEWSLETTER</a></li>
+			</ul>
+			</div>
+		    <a class="nav-icon" id="caw" onclick="menu()" onmouseover="chbg2('#808080', '#000000', '0.6', '0.6', '0.6', '0.6', '0.6', '1', '1.99em', '1.99em', '1.99em', '1.99em', '1.99em')" onmouseout="chbg2('#C0C0C0', '#191923', '1', '1', '1', '1', '1', '2em', '2em', '2em', '2em', '2em')">
+            	<div id="icon">&#9776;</div>
+        	</a>
+		</nav>
+		<nav class="hnav" id="navig">
+			<ul>
+				<li><a id="homLink" onmouseover="chbg('#C37372', '#550000', '1', '0.6', '0.6', '0.6', '0.6', '2.2em', '1.8em', '1.8em', '1.8em', '1.8em')" onmouseout="chbg('#C0C0C0', '#191923', '1', '1', '1', '1', '1', '2em', '2em', '2em', '2em', '2em')" href="index.html" onclick="another('#FF0000', '#555500', '#005500', '#000055', '#421249')">Home</a></li>
+				<li><a id="hisLink" onmouseover="chbg('#EAC882', '#555500', '0.6', '1', '0.6', '0.6', '0.6', '1.8em', '2.2em', '1.8em', '1.8em', '1.8em')" onmouseout="chbg('#C0C0C0', '#191923', '1', '1', '1', '1', '1', '2em', '2em', '2em', '2em', '2em')" href="history.html" onclick="another('#550000', '#ffff00', '#005500', '#000055', '#421249')">History</a></li>
+				<li><a id="ecoLink" onmouseover="chbg('#808A4E', '#005500', '0.6', '0.6', '1', '0.6', '0.6', '1.8em', '1.8em', '2.2em', '1.8em', '1.8em')" onmouseout="chbg('#C0C0C0', '#191923', '1', '1', '1', '1', '1', '2em', '2em', '2em', '2em', '2em')" href="ecology.html" onclick="another('#550000', '#555500', '#00ff00', '#000055', '#421249')">Ecology</a></li>
+				<li><a id="lckLink" onmouseover="chbg('#4192AF', '#000055', '0.6', '0.6', '0.6', '1', '0.6', '1.8em', '1.8em', '1.8em', '2.2em', '1.8em')" onmouseout="chbg('#C0C0C0', '#191923', '1', '1', '1', '1', '1', '2em', '2em', '2em', '2em', '2em')" href="locks.html" onclick="another('#550000', '#555500', '#005500', '#0000ff', '#421249')">Locks</a></li>
+				<li><a id="nwsLink" onmouseover="chbg('#8D6298', '#421249', '0.6', '0.6', '0.6', '0.6', '1', '1.8em', '1.8em', '1.8em', '1.8em', '2.2em')" onmouseout="chbg('#C0C0C0', '#191923', '1', '1', '1', '1', '1', '2em', '2em', '2em', '2em', '2em')" href="newsletter.html" onclick="another('#550000', '#555500', '#005500', '#000055', '#dc00ff')">Newsletter</a></li>
+			</ul>
+		</nav>
+		<header>
+			<h1>ST. LAWRENCE SEAWAY</h1>
+		</header>
+		
+		<main class="container">
+			<h1 class="titling">Locks in the Saint Lawrence River</h1>
+			<p class="imaging"><img class="imaging" src="images/locks2.png" alt="Alt Text Here"></p>
+			<p>There are seven locks in the Saint Lawrence River portion of the seaway. From downstream to upstream they are:</p>
+			<ol>
+				<li id="lock1">St. Lambert Lock—Saint Lambert, QC</li>
+				<li id="lock2">Côte Ste. Catherine Lock—Sainte-Catherine, QC</li>
+				<li id="lock3">Beauharnois Locks (two locks)—Melocheville, QC, at 45°18′12.6″N 73°55′36.5″W and 45°19′0.1″N 73°55′6.6″W</li>
+				<li id="lock4">Snell Lock—Massena, NY</li>
+				<li id="lock5">Eisenhower Lock—Massena, NY</li>
+				<li id="lock6">Iroquois Lock—Iroquois, ON, at 44°49′48″N 75°18′46.8″W</li>
+			</ol>
+			<br>
+			<p class="imaging"><img class="imaging" src="images/locks1.png" alt="Alt Text Here"></p>
+			<p>Water Level Elevations:</p>
+			<ul>
+				<li id="l0">Lake Ontario is 243 ft (74.1 m) above sea level.</li>
+				<li id="l1">The drop through Iroquois Lock is 1 ft (0.3 m).</li>
+				<li id="l2">Lake St. Lawrence is 242 ft (73.8 m) above sea level.</li>
+				<li id="l3">The drop through Eisenhower Lock is 38 ft (11.6 m).</li>
+				<li id="l4">The Wiley-Dondero Canal is 204 ft (62.2 m) above sea level.</li>
+				<li id="l5">The drop through Snell Lock is 45 ft (13.7 m).</li>
+				<li id="l6">Lake St. Francis is 159 ft (48.5 m) above sea level .</li>
+				<li id="l7">The drop through Upper Beauharnois Lock is 41 ft (12.5 m).</li>
+				<li id="l8">The Beauharnois Canal is 118 ft (36.0 m) above sea level.</li>
+				<li id="l9">The drop through Lower Beauharnois Lock is 41 ft (12.5 m).</li>
+				<li id="la">Lake St. Louis is 77 ft (23.5 m) above sea level.</li>
+				<li id="lb">The drop through Côte Ste. Catherine Lock is 30 ft (9.1 m).</li>
+				<li id="lc">Laprairie Basin is 47 ft (14.3 m) above sea level.</li>
+				<li id="ld">The drop through St. Lambert Lock is 15 ft (4.6 m).</li>
+				<li id="le">The drop through the Lachine Rapids is a few feet.</li>
+				<li id="lf">Montreal Harbour is approximately 30 ft (9.1 m) above sea level.</li>
+			</ul>
+		</main>
+		
+		<footer>
+			<nav class="fnav" id="navig2">
+				<ul>
+					<li><a id="fhomLink" onmouseover="fchbg('#C37372', '#550000', '1', '0.6', '0.6', '0.6', '0.6', '2.2em', '1.8em', '1.8em', '1.8em', '1.8em')" onmouseout="fchbg('#C0C0C0', '#191923', '1', '1', '1', '1', '1', '2em', '2em', '2em', '2em', '2em')" href="index.html" onclick="fanother('#FF0000', '#555500', '#005500', '#000055', '#421249')">Home</a></li>
+					<li><a id="fhisLink" onmouseover="fchbg('#EAC882', '#555500', '0.6', '1', '0.6', '0.6', '0.6', '1.8em', '2.2em', '1.8em', '1.8em', '1.8em')" onmouseout="fchbg('#C0C0C0', '#191923', '1', '1', '1', '1', '1', '2em', '2em', '2em', '2em', '2em')" href="history.html" onclick="fanother('#550000', '#ffff00', '#005500', '#000055', '#421249')">History</a></li>
+					<li><a id="fecoLink" onmouseover="fchbg('#808A4E', '#005500', '0.6', '0.6', '1', '0.6', '0.6', '1.8em', '1.8em', '2.2em', '1.8em', '1.8em')" onmouseout="fchbg('#C0C0C0', '#191923', '1', '1', '1', '1', '1', '2em', '2em', '2em', '2em', '2em')" href="ecology.html" onclick="fanother('#550000', '#555500', '#00ff00', '#000055', '#421249')">Ecology</a></li>
+					<li><a id="flckLink" onmouseover="fchbg('#4192AF', '#000055', '0.6', '0.6', '0.6', '1', '0.6', '1.8em', '1.8em', '1.8em', '2.2em', '1.8em')" onmouseout="fchbg('#C0C0C0', '#191923', '1', '1', '1', '1', '1', '2em', '2em', '2em', '2em', '2em')" href="locks.html" onclick="fanother('#550000', '#555500', '#005500', '#0000ff', '#421249')">Locks</a></li>
+					<li><a id="fnwsLink" onmouseover="fchbg('#8D6298', '#421249', '0.6', '0.6', '0.6', '0.6', '1', '1.8em', '1.8em', '1.8em', '1.8em', '2.2em')" onmouseout="fchbg('#C0C0C0', '#191923', '1', '1', '1', '1', '1', '2em', '2em', '2em', '2em', '2em')" href="newsletter.html" onclick="fanother('#550000', '#555500', '#005500', '#000055', '#dc00ff')">Newsletter</a></li>
+				</ul>
+			</nav>
+			<h5 class="center">&copy; Copyright 2023 Timothy Frick - Seaway Software Developers. All Rights Reserved.</h5>
+			<h5 class="center">Last Updated: March 7, 2023</h5>
+			<h6><marquee scrollamount="13">This site is for educational purposes only. Copyright Disclaimer under section 107 of the Copyright Act 1976, allowance is made for “fair use” for purposes such as criticism, comment, news reporting, teaching, scholarship, education and research. Fair use is a use permitted by copyright statute that might otherwise be infringing. Non-profit, educational or personal use tips the balance in favor of fair use. </marquee></h6>
+		</footer>
+	</body>
+</html>

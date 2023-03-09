@@ -1,0 +1,478 @@
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css2?family=Bigshot+One&family=Calistoga&family=IM+Fell+English+SC&family=Kodchasan:wght@700&family=Tilt+Neon&display=swap');
+
+/* COLORS:
+
+	DEFAULT:
+		Red:             #ff0000
+		Maroon:          #800000
+		Yellow:          #ffff00
+		Olive:           #808000
+		Lime:            #00ff00
+		Green:           #008000
+		Cyan:            #00ffff
+		Teal:            #008080
+		Blue:            #0000ff
+		Navy:            #000080
+		Fuchsia:         #ff00ff
+		Purple:          #800080
+		White:           #ffffff
+		Silver:          #c0c0c0
+		Gray:            #808080
+		Black:           #000000
+
+	EXTRA PALLET:
+		Cargo Red:       #C37372
+		Grass Green:     #808A4E
+		Water Blue:      #4192AF
+		Boat White:      #F5F1F0
+		Ship Black:      #191923
+*/
+
+/* FONTS:
+	BIG SHOT:            "Bigshot One", Cursive;
+	Nav:                 "Calistoga", Cursive;
+	Obligatory Serif:    "IM Fell English SC", serif;
+
+*/
+
+* {
+	padding: 0;
+	border: 0;
+	margin: 0;
+}
+
+.hnav {
+	display: none;
+}
+
+.fnav {
+	display: none;
+}
+
+body {
+	background-color: #F5F1F0;
+}
+
+header {
+	background: url("../images/home.jpg");
+	background-size: cover;
+	animation: scrool 15s infinite alternate ease-in-out;
+	animation-delay: 2s;
+}
+
+@keyframes scrool {
+	0%{background-position:0 0%}
+	100%{background-position:0 100%}
+}
+
+header h1 {
+	font-family: "Bigshot One", Cursive;
+	font-size: 6em;
+	color: #000000;
+	text-align: center;
+	animation: colors 15s infinite alternate ease-in-out;
+	animation-delay: 2s;
+	-webkit-text-stroke: .1px #000000;
+	transform: translate(-10px, -10px);
+	text-shadow: 10px 10px 10px #00000099;
+}
+
+@keyframes colors {
+	0% {color: #000000; -webkit-text-stroke: .1px #000000; text-shadow: 10px 10px 10px #00000099;}
+	100% {color: #0000ff; -webkit-text-stroke: .1px #000077; text-shadow: 10px 10px 10px #00005599;}
+}
+
+.mnav {
+	background-color: #C0C0C0;
+	transition: 0.3s all;
+}
+
+.mnav a {
+    text-align: center;
+    padding: .5%;
+    display: block;
+	color: #191923;
+	text-decoration: none;
+	transition: 0.3s all;
+	font-family: "Calistoga", Cursive;
+	font-size: 2em;
+}
+
+#icon {
+	transition: all .3s;
+}
+
+.nav-icon {
+    display: block;
+    left: 0;
+    top: 0;
+	color: #191923;
+    padding: 2%;
+	transition: all .3s;
+}
+
+#caw {
+	background-color: #c0c0c0;
+	padding: 1%;
+	transition: all .3s;
+}
+
+#nav-links {
+	display: none;
+	transition: all .3s;
+}
+
+.nav-icon:hover {
+	cursor: pointer;
+	transition: all .3s;
+}
+
+	
+main {
+	min-height: 400px;
+	max-width: 80%;
+	background-color: #F5F1F0;
+}
+
+.titling {
+	font-family: "Tilt Neon", cursive;
+	font-weight: bolder;
+	font-size: 3em;
+	color: #012345;
+	text-align: center;
+}
+
+p, ol, main ul, form {
+	font-family: "IM Fell English SC", serif;
+	font-size: 1.2em;
+	color: #001122;
+}
+
+ol, main ul {
+	margin-left: 7%;
+}
+
+#lock1 {
+	color: #7f0000
+}
+#lock2 {
+	color: #7f4000
+}
+#lock3 {
+	color: #7f7f00
+}
+#lock4 {
+	color: #007f00
+}
+#lock5 {
+	color: #00007f
+}
+#lock6 {
+	color: #40007f
+}
+
+#l0 {
+	color: #000000
+}
+#l1 {
+	color: #000011
+}
+#l2 {
+	color: #000022
+}
+#l3 {
+	color: #000033
+}
+#l4 {
+	color: #000044
+}
+#l5 {
+	color: #000055
+}
+#l6 {
+	color: #000066
+}
+#l7 {
+	color: #000077
+}
+#l8 {
+	color: #000088
+}
+#l9 {
+	color: #000099
+}
+#la {
+	color: #0000aa
+}
+#lb {
+	color: #0000bb
+}
+#lc {
+	color: #0000cc
+}
+#ld {
+	color: #0000dd
+}
+#le {
+	color: #0000ee
+}
+#lf {
+	color: #0000ff
+}
+	
+form {
+	font-size: 1.5em;
+}
+
+#submit, #reset {
+	padding: 1% 1.5%;
+	background-color: #4192AF;
+	border-radius: 10px;
+	margin-bottom: 2%;
+	color: #012345;
+	font-family: "Kodchasan";
+	font-weight: bold;
+	transition: all .3s;
+}
+
+#submit:hover {
+	background-color: #1ad345;
+	color: #005505;
+	cursor: pointer;
+	transform: translate(-2px, -2px);
+	box-shadow: 2px 2px 3px 0 #009600cc;
+}
+
+#reset:hover {
+	background-color: #ff2c34;
+	color: #550005;
+	cursor: pointer;
+	transform: translate(-2px, -2px);
+	box-shadow: 2px 2px 3px 0 #960000cc;
+}
+
+.container {
+	max-width: 80%;
+	margin: 0 auto;
+}
+
+.imaging {
+	display: none;
+}
+
+@media screen and (min-width: 1000px), print {
+	
+	header h1 {
+		font-size: 8em;
+	}
+	
+	.mnav {
+	    display: none;
+	}
+	
+	.hnav {
+		display: block;
+	}
+	.fnav {
+		display: block;
+	}
+
+	.hnav, .fnav {
+		padding: .5% 0;
+	}
+	
+	.hnav {
+		background-color: #C0C0C0;
+		transition: 0.7s all;
+	}
+	
+	.hnav ul {
+		display: block;
+		text-align: center;
+		margin: 0;
+		border: 0;
+		padding: 0;
+		width: 100%;
+	}
+	
+	.hnav ul li {
+		display: inline-block;
+		list-style: none;
+		width: 19%;
+	}
+	
+	.hnav a {
+		color: #191923;
+		text-decoration: none;
+		transition: 0.3s all;
+		font-family: "Calistoga", Cursive;
+		font-size: 2em;
+	}
+	
+	.hnav a:hover {
+		color: #191923;
+		font-size: 2.2em;
+	}
+	
+	#homLink:hover {
+		color: #550000;
+		opacity: 1
+	}
+	
+	#hisLink:hover {
+		color: #555500;
+		opacity: 1
+	}
+	
+	#ecoLink:hover {
+		color: #005500;
+		opacity: 1
+	}
+	
+	#lckLink:hover {
+		color: #000055;
+		opacity: 1
+	}
+	
+	#nwsLink:hover {
+		color: #421249;
+		opacity: 1
+	}
+	
+	#homLink:active {
+		color: #ff0000;
+		transition: all 0s;
+	}
+	
+	#hisLink:active {
+		color: #ffff00;
+		transition: all 0s;
+	}
+	
+	#ecoLink:active {
+		color: #00ff00;
+		transition: all 0s;
+	}
+	
+	#lckLink:active {
+		color: #0000ff;
+		transition: all 0s;
+	}
+	
+	#nwsLink:active {
+		color: #DC00FF;
+		transition: all 0s;
+	}
+	
+	h1 {
+		text-align: center;
+	}
+	
+	.titling {
+		font-size: 4.9em;
+	}
+	
+	p, ol, main ul, form {
+		font-size: 1.5em;
+	}
+	
+	.imaging {
+		display: block;
+		margin: 0 auto;
+		text-align: center;
+		max-width: 80%;
+	}
+	
+	#submit, #reset {
+		padding: .7% 1%;
+	}
+	
+	footer {
+		background-color: #ffffff;
+	}
+	
+	.fnav {
+		background-color: #C0C0C0;
+		transition: 0.7s all;
+	}
+	
+	.fnav ul {
+		display: block;
+		text-align: center;
+		margin: 0;
+		border: 0;
+		padding: 0;
+		width: 100%;
+	}
+	
+	.fnav ul li {
+		display: inline-block;
+		list-style: none;
+		width: 19%;
+	}
+	
+	.fnav a {
+		color: #191923;
+		text-decoration: none;
+		transition: 0.3s all;
+		font-family: "Calistoga", Cursive;
+		font-size: 2em;
+	}
+	
+	.fnav a:hover {
+		color: #191923;
+		font-size: 2.2em;
+	}
+	
+	#fhomLink:hover {
+		color: #550000;
+		opacity: 1
+	}
+	
+	#fhisLink:hover {
+		color: #555500;
+		opacity: 1
+	}
+	
+	#fecoLink:hover {
+		color: #005500;
+		opacity: 1
+	}
+	
+	#flckLink:hover {
+		color: #000055;
+		opacity: 1
+	}
+	
+	#fnwsLink:hover {
+		color: #421249;
+		opacity: 1
+	}
+	
+	#fhomLink:active {
+		color: #ff0000;
+		transition: all 0s;
+	}
+	
+	#fhisLink:active {
+		color: #ffff00;
+		transition: all 0s;
+	}
+	
+	#fecoLink:active {
+		color: #00ff00;
+		transition: all 0s;
+	}
+	
+	#flckLink:active {
+		color: #0000ff;
+		transition: all 0s;
+	}
+	
+	#fnwsLink:active {
+		color: #DC00FF;
+		transition: all 0s;
+	}
+}

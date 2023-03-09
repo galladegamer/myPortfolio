@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>St. Lawrence Seaway: Template</title>
+		<link rel="stylesheet" href="css/styles.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link rel="icon" type="image/png" sizes="32x32" href="images/logo.png">
+		<script src="script/script.js"></script>
+	</head>
+	
+	<body>
+		<nav class="mnav" id="mnav">
+			<div id="nav-links">
+			<ul id="moreLinks">
+				<li><a id="m1" onmouseover="chbg2('#C37372', '#550000', '1', '0.6', '0.6', '0.6', '0.6', '0.6', '2.01em', '1.99em', '1.99em', '1.99em', '1.99em')" onmouseout="chbg2('#C0C0C0', '#191923', '1', '1', '1', '1', '1', '2em', '2em', '2em', '2em', '2em')" href="index.html" onclick="another('#FF0000', '#555500', '#005500', '#000055', '#421249')">HOME</a></li>
+				<li><a id="m2" onmouseover="chbg2('#EAC882', '#555500', '0.6', '1', '0.6', '0.6', '0.6', '0.6', '1.99em', '2.01em', '1.99em', '1.99em', '1.99em')" onmouseout="chbg2('#C0C0C0', '#191923', '1', '1', '1', '1', '1', '2em', '2em', '2em', '2em', '2em')" href="history.html" onclick="another('#550000', '#ffff00', '#005500', '#000055', '#421249')">HISTORY</a></li>
+				<li><a id="m3" onmouseover="chbg2('#808A4E', '#005500', '0.6', '0.6', '1', '0.6', '0.6', '0.6', '1.99em', '1.99em', '2.01em', '1.99em', '1.99em')" onmouseout="chbg2('#C0C0C0', '#191923', '1', '1', '1', '1', '1', '2em', '2em', '2em', '2em', '2em')" href="ecology.html" onclick="another('#550000', '#555500', '#00ff00', '#000055', '#421249')">ECOLOGY</a></li>
+				<li><a id="m4" onmouseover="chbg2('#4192AF', '#000055', '0.6', '0.6', '0.6', '1', '0.6', '0.6', '1.99em', '1.99em', '1.99em', '2.01em', '1.99em')" onmouseout="chbg2('#C0C0C0', '#191923', '1', '1', '1', '1', '1', '2em', '2em', '2em', '2em', '2em')" href="locks.html" onclick="another('#550000', '#555500', '#005500', '#0000ff', '#421249')">LOCKS</a></li>
+				<li><a id="m5" onmouseover="chbg2('#8D6298', '#421249', '0.6', '0.6', '0.6', '0.6', '1', '0.6', '1.99em', '1.99em', '1.99em', '1.99em', '2.01em')" onmouseout="chbg2('#C0C0C0', '#191923', '1', '1', '1', '1', '1', '2em', '2em', '2em', '2em', '2em')" href="newsletter.html" onclick="another('#550000', '#555500', '#005500', '#000055', '#dc00ff')">NEWSLETTER</a></li>
+			</ul>
+			</div>
+		    <a class="nav-icon" id="caw" onclick="menu()" onmouseover="chbg2('#808080', '#000000', '0.6', '0.6', '0.6', '0.6', '0.6', '1', '1.99em', '1.99em', '1.99em', '1.99em', '1.99em')" onmouseout="chbg2('#C0C0C0', '#191923', '1', '1', '1', '1', '1', '2em', '2em', '2em', '2em', '2em')">
+            	<div id="icon">&#9776;</div>
+        	</a>
+		</nav>
+		<nav class="hnav" id="navig">
+			<ul>
+				<li><a id="homLink" onmouseover="chbg('#C37372', '#550000', '1', '0.6', '0.6', '0.6', '0.6', '2.2em', '1.8em', '1.8em', '1.8em', '1.8em')" onmouseout="chbg('#C0C0C0', '#191923', '1', '1', '1', '1', '1', '2em', '2em', '2em', '2em', '2em')" href="index.html" onclick="another('#FF0000', '#555500', '#005500', '#000055', '#421249')">Home</a></li>
+				<li><a id="hisLink" onmouseover="chbg('#EAC882', '#555500', '0.6', '1', '0.6', '0.6', '0.6', '1.8em', '2.2em', '1.8em', '1.8em', '1.8em')" onmouseout="chbg('#C0C0C0', '#191923', '1', '1', '1', '1', '1', '2em', '2em', '2em', '2em', '2em')" href="history.html" onclick="another('#550000', '#ffff00', '#005500', '#000055', '#421249')">History</a></li>
+				<li><a id="ecoLink" onmouseover="chbg('#808A4E', '#005500', '0.6', '0.6', '1', '0.6', '0.6', '1.8em', '1.8em', '2.2em', '1.8em', '1.8em')" onmouseout="chbg('#C0C0C0', '#191923', '1', '1', '1', '1', '1', '2em', '2em', '2em', '2em', '2em')" href="ecology.html" onclick="another('#550000', '#555500', '#00ff00', '#000055', '#421249')">Ecology</a></li>
+				<li><a id="lckLink" onmouseover="chbg('#4192AF', '#000055', '0.6', '0.6', '0.6', '1', '0.6', '1.8em', '1.8em', '1.8em', '2.2em', '1.8em')" onmouseout="chbg('#C0C0C0', '#191923', '1', '1', '1', '1', '1', '2em', '2em', '2em', '2em', '2em')" href="locks.html" onclick="another('#550000', '#555500', '#005500', '#0000ff', '#421249')">Locks</a></li>
+				<li><a id="nwsLink" onmouseover="chbg('#8D6298', '#421249', '0.6', '0.6', '0.6', '0.6', '1', '1.8em', '1.8em', '1.8em', '1.8em', '2.2em')" onmouseout="chbg('#C0C0C0', '#191923', '1', '1', '1', '1', '1', '2em', '2em', '2em', '2em', '2em')" href="newsletter.html" onclick="another('#550000', '#555500', '#005500', '#000055', '#dc00ff')">Newsletter</a></li>
+			</ul>
+		</nav>
+		<header>
+			<h1>ST. LAWRENCE SEAWAY</h1>
+		</header>
+		
+		<main class="container">
+			<h1 class="titling">Ecology</h1>
+			<p class="imaging"><img class="imaging" src="images/ecology1.jpg" alt="Alt Text Here"></p>
+			<p>To create a navigable channel through the Long Sault rapids and to allow hydroelectric stations to be established immediately upriver from Cornwall, Ontario, and Massena, New York, Lake St. Lawrence was created behind a dam. This required the condemnation and acquisition by the government of all the properties of six villages and three hamlets in Ontario; these are now collectively known as The Lost Villages. The area was flooded on July 1, 1958, creating the lake. There was also inundation on the New York side of the border, and the village of Louisville Landing was submerged.</p>
+			<br>
+			<p>A notable adverse environmental effect of the operation of the seaway has been the introduction of numerous invasive species of aquatic animals into the Great Lakes Basin. The zebra mussel has been most damaging in the Great Lakes and through its invasion of related rivers, waterways, and city water facilities.</p>
+			<br>
+			<p>The seaway, along with the Saint Lawrence River it passes through, also provides opportunities for outdoor recreation, such as boating, camping, fishing, and scuba diving. Invasive species and artificial water level controls imposed by the seaway have had a negative impact on recreational fishing. Of note, the Old Power House near Lock 23 (near Morrisburg, Ontario) became an attractive site for scuba divers. The submerged stone building has become covered with barnacles and is home to an abundance of underwater life.</p>
+			<br>
+			<p>The seaway passes through the Saint Lawrence River, which provides a number of divable shipwrecks within recreational scuba limits (shallower than 130 ft (40 m)). The region also offers technical diving, with some wrecks lying at 240 ft (73 m). The water temperature can be as warm as 75 °F (24 °C) during the mid- to late summer months. The first 10 ft (3 m) of Lake Ontario is warmed and enters the Saint Lawrence River, as the fast-moving water body has no thermocline circulation.</p>
+			<br>
+			<p>On July 12, 2010, Richelieu (owned by Canada Steamship Lines) ran aground after losing power near the Côte-Sainte-Catherine lock. The grounding punctured a fuel tank, spilling an estimated 200 tonnes of diesel fuel, covering approximately 500 m2. The seaway and lock were shut down to help contain the spill.</p>
+
+		</main>
+		
+		<footer>
+			<nav class="fnav" id="navig2">
+				<ul>
+					<li><a id="fhomLink" onmouseover="fchbg('#C37372', '#550000', '1', '0.6', '0.6', '0.6', '0.6', '2.2em', '1.8em', '1.8em', '1.8em', '1.8em')" onmouseout="fchbg('#C0C0C0', '#191923', '1', '1', '1', '1', '1', '2em', '2em', '2em', '2em', '2em')" href="index.html" onclick="fanother('#FF0000', '#555500', '#005500', '#000055', '#421249')">Home</a></li>
+					<li><a id="fhisLink" onmouseover="fchbg('#EAC882', '#555500', '0.6', '1', '0.6', '0.6', '0.6', '1.8em', '2.2em', '1.8em', '1.8em', '1.8em')" onmouseout="fchbg('#C0C0C0', '#191923', '1', '1', '1', '1', '1', '2em', '2em', '2em', '2em', '2em')" href="history.html" onclick="fanother('#550000', '#ffff00', '#005500', '#000055', '#421249')">History</a></li>
+					<li><a id="fecoLink" onmouseover="fchbg('#808A4E', '#005500', '0.6', '0.6', '1', '0.6', '0.6', '1.8em', '1.8em', '2.2em', '1.8em', '1.8em')" onmouseout="fchbg('#C0C0C0', '#191923', '1', '1', '1', '1', '1', '2em', '2em', '2em', '2em', '2em')" href="ecology.html" onclick="fanother('#550000', '#555500', '#00ff00', '#000055', '#421249')">Ecology</a></li>
+					<li><a id="flckLink" onmouseover="fchbg('#4192AF', '#000055', '0.6', '0.6', '0.6', '1', '0.6', '1.8em', '1.8em', '1.8em', '2.2em', '1.8em')" onmouseout="fchbg('#C0C0C0', '#191923', '1', '1', '1', '1', '1', '2em', '2em', '2em', '2em', '2em')" href="locks.html" onclick="fanother('#550000', '#555500', '#005500', '#0000ff', '#421249')">Locks</a></li>
+					<li><a id="fnwsLink" onmouseover="fchbg('#8D6298', '#421249', '0.6', '0.6', '0.6', '0.6', '1', '1.8em', '1.8em', '1.8em', '1.8em', '2.2em')" onmouseout="fchbg('#C0C0C0', '#191923', '1', '1', '1', '1', '1', '2em', '2em', '2em', '2em', '2em')" href="newsletter.html" onclick="fanother('#550000', '#555500', '#005500', '#000055', '#dc00ff')">Newsletter</a></li>
+				</ul>
+			</nav>
+			<h5 class="center">&copy; Copyright 2023 Timothy Frick - Seaway Software Developers. All Rights Reserved.</h5>
+			<h5 class="center">Last Updated: March 7, 2023</h5>
+			<h6><marquee scrollamount="13">This site is for educational purposes only. Copyright Disclaimer under section 107 of the Copyright Act 1976, allowance is made for “fair use” for purposes such as criticism, comment, news reporting, teaching, scholarship, education and research. Fair use is a use permitted by copyright statute that might otherwise be infringing. Non-profit, educational or personal use tips the balance in favor of fair use. </marquee></h6>
+		</footer>
+	</body>
+</html>

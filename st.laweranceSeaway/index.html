@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>St. Lawrence Seaway: Home</title>
+		<link rel="stylesheet" href="css/styles.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link rel="icon" type="image/png" sizes="32x32" href="images/logo.png">
+		<script src="script/script.js"></script>
+	</head>
+	
+	<body>
+		<nav class="mnav" id="mnav">
+			<div id="nav-links">
+			<ul id="moreLinks">
+				<li><a id="m1" onmouseover="chbg2('#C37372', '#550000', '1', '0.6', '0.6', '0.6', '0.6', '0.6', '2.01em', '1.99em', '1.99em', '1.99em', '1.99em')" onmouseout="chbg2('#C0C0C0', '#191923', '1', '1', '1', '1', '1', '2em', '2em', '2em', '2em', '2em')" href="index.html" onclick="another('#FF0000', '#555500', '#005500', '#000055', '#421249')">HOME</a></li>
+				<li><a id="m2" onmouseover="chbg2('#EAC882', '#555500', '0.6', '1', '0.6', '0.6', '0.6', '0.6', '1.99em', '2.01em', '1.99em', '1.99em', '1.99em')" onmouseout="chbg2('#C0C0C0', '#191923', '1', '1', '1', '1', '1', '2em', '2em', '2em', '2em', '2em')" href="history.html" onclick="another('#550000', '#ffff00', '#005500', '#000055', '#421249')">HISTORY</a></li>
+				<li><a id="m3" onmouseover="chbg2('#808A4E', '#005500', '0.6', '0.6', '1', '0.6', '0.6', '0.6', '1.99em', '1.99em', '2.01em', '1.99em', '1.99em')" onmouseout="chbg2('#C0C0C0', '#191923', '1', '1', '1', '1', '1', '2em', '2em', '2em', '2em', '2em')" href="ecology.html" onclick="another('#550000', '#555500', '#00ff00', '#000055', '#421249')">ECOLOGY</a></li>
+				<li><a id="m4" onmouseover="chbg2('#4192AF', '#000055', '0.6', '0.6', '0.6', '1', '0.6', '0.6', '1.99em', '1.99em', '1.99em', '2.01em', '1.99em')" onmouseout="chbg2('#C0C0C0', '#191923', '1', '1', '1', '1', '1', '2em', '2em', '2em', '2em', '2em')" href="locks.html" onclick="another('#550000', '#555500', '#005500', '#0000ff', '#421249')">LOCKS</a></li>
+				<li><a id="m5" onmouseover="chbg2('#8D6298', '#421249', '0.6', '0.6', '0.6', '0.6', '1', '0.6', '1.99em', '1.99em', '1.99em', '1.99em', '2.01em')" onmouseout="chbg2('#C0C0C0', '#191923', '1', '1', '1', '1', '1', '2em', '2em', '2em', '2em', '2em')" href="newsletter.html" onclick="another('#550000', '#555500', '#005500', '#000055', '#dc00ff')">NEWSLETTER</a></li>
+			</ul>
+			</div>
+		    <a class="nav-icon" id="caw" onclick="menu()" onmouseover="chbg2('#808080', '#000000', '0.6', '0.6', '0.6', '0.6', '0.6', '1', '1.99em', '1.99em', '1.99em', '1.99em', '1.99em')" onmouseout="chbg2('#C0C0C0', '#191923', '1', '1', '1', '1', '1', '2em', '2em', '2em', '2em', '2em')">
+            	<div id="icon">&#9776;</div>
+        	</a>
+		</nav>
+		<nav class="hnav" id="navig">
+			<ul>
+				<li><a id="homLink" onmouseover="chbg('#C37372', '#550000', '1', '0.6', '0.6', '0.6', '0.6', '2.2em', '1.8em', '1.8em', '1.8em', '1.8em')" onmouseout="chbg('#C0C0C0', '#191923', '1', '1', '1', '1', '1', '2em', '2em', '2em', '2em', '2em')" href="index.html" onclick="another('#FF0000', '#555500', '#005500', '#000055', '#421249')">Home</a></li>
+				<li><a id="hisLink" onmouseover="chbg('#EAC882', '#555500', '0.6', '1', '0.6', '0.6', '0.6', '1.8em', '2.2em', '1.8em', '1.8em', '1.8em')" onmouseout="chbg('#C0C0C0', '#191923', '1', '1', '1', '1', '1', '2em', '2em', '2em', '2em', '2em')" href="history.html" onclick="another('#550000', '#ffff00', '#005500', '#000055', '#421249')">History</a></li>
+				<li><a id="ecoLink" onmouseover="chbg('#808A4E', '#005500', '0.6', '0.6', '1', '0.6', '0.6', '1.8em', '1.8em', '2.2em', '1.8em', '1.8em')" onmouseout="chbg('#C0C0C0', '#191923', '1', '1', '1', '1', '1', '2em', '2em', '2em', '2em', '2em')" href="ecology.html" onclick="another('#550000', '#555500', '#00ff00', '#000055', '#421249')">Ecology</a></li>
+				<li><a id="lckLink" onmouseover="chbg('#4192AF', '#000055', '0.6', '0.6', '0.6', '1', '0.6', '1.8em', '1.8em', '1.8em', '2.2em', '1.8em')" onmouseout="chbg('#C0C0C0', '#191923', '1', '1', '1', '1', '1', '2em', '2em', '2em', '2em', '2em')" href="locks.html" onclick="another('#550000', '#555500', '#005500', '#0000ff', '#421249')">Locks</a></li>
+				<li><a id="nwsLink" onmouseover="chbg('#8D6298', '#421249', '0.6', '0.6', '0.6', '0.6', '1', '1.8em', '1.8em', '1.8em', '1.8em', '2.2em')" onmouseout="chbg('#C0C0C0', '#191923', '1', '1', '1', '1', '1', '2em', '2em', '2em', '2em', '2em')" href="newsletter.html" onclick="another('#550000', '#555500', '#005500', '#000055', '#dc00ff')">Newsletter</a></li>
+			</ul>
+		</nav>
+		<header>
+			<h1>ST. LAWRENCE SEAWAY</h1>
+		</header>
+		
+		<main class="container">
+			<h1 class="titling">St. Lawrence Seaway</h1>
+			<p class="imaging"><img class="imaging" src="images/home.jpg" alt="Boats"></p>
+			<p>The Saint Lawrence Seaway (French: la Voie Maritime du Saint-Laurent) is a system of locks, canals, and channels in Canada and the United States that permits oceangoing vessels to travel from the Atlantic Ocean to the Great Lakes of North America, as far inland as Duluth, Minnesota, at the western end of Lake Superior. The seaway is named for the Saint Lawrence River, which flows from Lake Ontario to the Atlantic Ocean. Legally, the seaway extends from Montreal, Quebec, to Lake Erie, and includes the Welland Canal.</p>
+			<br>
+			<p>The Saint Lawrence River portion of the seaway is not a continuous canal; rather, it consists of several stretches of navigable channels within the river, a number of locks, and canals along the banks of the Saint Lawrence River to bypass several rapids and dams. A number of the locks are managed by the St. Lawrence Seaway Management Corporation in Canada, and others in the United States by the Saint Lawrence Seaway Development Corporation; the two bodies together advertise the seaway as part of "Highway H2O". The section of the river from Montreal to the Atlantic is under Canadian jurisdiction, regulated by the offices of Transport Canada in the Port of Quebec.</p>
+		</main>
+		
+		<footer>
+			<nav class="fnav" id="navig2">
+				<ul>
+					<li><a id="fhomLink" onmouseover="fchbg('#C37372', '#550000', '1', '0.6', '0.6', '0.6', '0.6', '2.2em', '1.8em', '1.8em', '1.8em', '1.8em')" onmouseout="fchbg('#C0C0C0', '#191923', '1', '1', '1', '1', '1', '2em', '2em', '2em', '2em', '2em')" href="index.html" onclick="fanother('#FF0000', '#555500', '#005500', '#000055', '#421249')">Home</a></li>
+					<li><a id="fhisLink" onmouseover="fchbg('#EAC882', '#555500', '0.6', '1', '0.6', '0.6', '0.6', '1.8em', '2.2em', '1.8em', '1.8em', '1.8em')" onmouseout="fchbg('#C0C0C0', '#191923', '1', '1', '1', '1', '1', '2em', '2em', '2em', '2em', '2em')" href="history.html" onclick="fanother('#550000', '#ffff00', '#005500', '#000055', '#421249')">History</a></li>
+					<li><a id="fecoLink" onmouseover="fchbg('#808A4E', '#005500', '0.6', '0.6', '1', '0.6', '0.6', '1.8em', '1.8em', '2.2em', '1.8em', '1.8em')" onmouseout="fchbg('#C0C0C0', '#191923', '1', '1', '1', '1', '1', '2em', '2em', '2em', '2em', '2em')" href="ecology.html" onclick="fanother('#550000', '#555500', '#00ff00', '#000055', '#421249')">Ecology</a></li>
+					<li><a id="flckLink" onmouseover="fchbg('#4192AF', '#000055', '0.6', '0.6', '0.6', '1', '0.6', '1.8em', '1.8em', '1.8em', '2.2em', '1.8em')" onmouseout="fchbg('#C0C0C0', '#191923', '1', '1', '1', '1', '1', '2em', '2em', '2em', '2em', '2em')" href="locks.html" onclick="fanother('#550000', '#555500', '#005500', '#0000ff', '#421249')">Locks</a></li>
+					<li><a id="fnwsLink" onmouseover="fchbg('#8D6298', '#421249', '0.6', '0.6', '0.6', '0.6', '1', '1.8em', '1.8em', '1.8em', '1.8em', '2.2em')" onmouseout="fchbg('#C0C0C0', '#191923', '1', '1', '1', '1', '1', '2em', '2em', '2em', '2em', '2em')" href="newsletter.html" onclick="fanother('#550000', '#555500', '#005500', '#000055', '#dc00ff')">Newsletter</a></li>
+				</ul>
+			</nav>
+			<h5 class="center">&copy; Copyright 2023 Timothy Frick - Seaway Software Developers. All Rights Reserved.</h5>
+			<h5 class="center">Last Updated: March 7, 2023</h5>
+			<h6><marquee scrollamount="13">This site is for educational purposes only. Copyright Disclaimer under section 107 of the Copyright Act 1976, allowance is made for “fair use” for purposes such as criticism, comment, news reporting, teaching, scholarship, education and research. Fair use is a use permitted by copyright statute that might otherwise be infringing. Non-profit, educational or personal use tips the balance in favor of fair use. </marquee></h6>
+		</footer>
+	</body>
+</html>

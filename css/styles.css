@@ -1,6 +1,6 @@
 /* CSS Document */
 
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bungee&family=Chewy&family=Coiny&family=Comfortaa&family=Creepster&family=Dokdo&family=Fredoka+One&family=Itim&family=Lobster&family=Playfair+Display&family=Press+Start+2P&family=Righteous&family=Solway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bungee&family=Chewy&family=Coiny&family=Comfortaa&family=Creepster&family=Dokdo&family=Fredoka+One&family=Itim&family=Lobster&family=Playfair+Display&family=Press+Start+2P&family=Righteous&family=Smokum&family=Solway&display=swap');
 @import url('https://fonts.cdnfonts.com/css/circus');
 @import url('https://fonts.cdnfonts.com/css/chiller');
 
@@ -708,15 +708,45 @@ main p {
 
 /*ROBLOX*/
 
+.row3 ul li {
+	display: inline;
+}
+
 #robloxlink {
 	max-width: 25%;
 	opacity: 0.8;
 	transition: .3s all;
-	margin-top: 5%;
+	margin-top: 3%;
 }
 
 #robloxlink:hover {
 	max-width: 27.5%;
+	opacity: 1;
+}
+
+/*SEAWAY*/
+
+.seaway {
+	color: #012345;
+	font-size: 5em;
+}
+
+#sl {
+	opacity: 0.8;
+	font-family: "Smokum", cursive;
+	letter-spacing: 5px;
+	color: #000000;
+	-webkit-text-stroke: 2px #555555;
+	animation: ocean 4s infinite alternate ease-in-out;
+}
+
+@keyframes ocean {
+	0% {color: #000000; -webkit-text-stroke: 2px #000000;}
+	100% {color: #0000ff; -webkit-text-stroke: 2px #000077;}
+}
+
+#sl:hover {
+	font-size: 1.05em;
 	opacity: 1;
 }
 
